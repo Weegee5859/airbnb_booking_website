@@ -1,0 +1,66 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+div#about_us_image_container {
+	width: 100vw;
+	height: 20vh;
+	padding: 0px;
+	background-color: rgb(30,30,30);
+}
+
+img#about_us_image {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	opacity: 0.4;
+	object-fit: cover;
+}
+
+p#about_us_image_text {
+	position: absolute;
+	top: 0vh;
+	left: 50vw;
+	font-size: 8vh;
+	opacity: 1;
+	color: white;}
+
+div#steps_container {
+	padding: 0px;
+	margin: 0px;
+}
+
+ul#steps_list {
+	display: table;
+	width: 100vw;
+	padding: 0px;
+}
+
+ul#steps {
+	display: table-cell;
+	color: blue;
+	text-align: center;
+	padding: 8px;
+}
+
+img#steps_icon {
+	border-radius: 50%;
+	height: 12vh;
+	width: 12vh;
+}
+
+p#steps_text {
+	font-size: 16px;
+	font-size: 2vh;
+}
+
+div#about_us_text_container {
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+p#about_us_text {
+	font-size: 16px;
+	font-size: 2vh;
+}
