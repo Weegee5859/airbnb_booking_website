@@ -10,7 +10,8 @@ body#home {
 }
 
 #calH{
-	text-align:center;
+	position: relative;
+	left: 190px;
 }
 
 #dates {
