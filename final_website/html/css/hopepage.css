@@ -9,10 +9,8 @@ body#home {
 	background-size: cover;
 }
 
-#cal {
-	background-image: url('resources/vac_house.jpg');
-	background-position: center;
-	background-size: cover;
+#calH{
+	text-align:center;
 }
 
 #dates {
