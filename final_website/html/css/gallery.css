@@ -1,0 +1,32 @@
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+.galleryTable {
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #9bd8da;
+}
+
+.galleryTR {
+	border: 2px solid #9bd8da;
+}
+
+.galleryTD {
+	border: 2px solid #9bd8da;
+}
+
+.galleryPhoto {
+	width: 350px;
+	vertical-align: middle;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+p.gallery {
+	text-align: center;
+}
