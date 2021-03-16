@@ -8,3 +8,32 @@ body#home {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+#cal {
+	background-image: url('resources/vac_house.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+#dates {
+	height: 270px;
+	width: 328px;
+	position: center;
+	margin: 100px;
+}
+
+#prev {
+	background-color: rgba(156,183,187,.85);
+	width: 90px;
+	border-color: black;
+	border: 20px;
+}
+
+#next {
+	background-color: rgba(156,183,187,.85);
+	width: 60px;
+}
+#dateCal {
+	background-color: rgba(156,183,187,.85);
+	border-spacing: 10px;
+}
