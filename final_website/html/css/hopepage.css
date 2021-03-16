@@ -1,0 +1,38 @@
+body#home {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Verdana', Fallback, sans-serif;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../resources/vac_house.jpg");
+	background-color: rgb(30,30,30);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#calH{
+	position: relative;
+	left: 190px;
+}
+
+#dates {
+	height: 270px;
+	width: 328px;
+	position: center;
+	margin: 100px;
+}
+
+#prev {
+	background-color: rgba(156,183,187,.85);
+	width: 90px;
+	border-color: black;
+	border: 20px;
+}
+
+#next {
+	background-color: rgba(156,183,187,.85);
+	width: 60px;
+}
+#dateCal {
+	background-color: rgba(156,183,187,.85);
+	border-spacing: 10px;
+}
