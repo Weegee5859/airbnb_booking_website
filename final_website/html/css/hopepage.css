@@ -1,0 +1,10 @@
+body#home {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Verdana', Fallback, sans-serif;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../resources/vac_house.jpg");
+	background-color: rgb(30,30,30);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
