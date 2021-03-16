@@ -1,11 +1,3 @@
-body {
-	font-family: 'Verdana', Fallback, sans-serif;
-}
-
-p {
-	font-size: 16px;
-}
-
 /* Dropdown menu for 'things to do' */
 select {
 	font-family: 'Verdana', Fallback, sans-serif;
@@ -34,7 +26,7 @@ h1 {
 }
 
 /* Overall attraction table */
-table.toDoTable {
+.toDoTable {
 	margin-left: auto;
   	margin-right: auto;
   	border-spacing: 15px;
