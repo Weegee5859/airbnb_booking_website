@@ -6,7 +6,10 @@ body {
 
 div#footer_container {
 	background-color: #9cb7bb;
-	color: white;
+	color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
 }
 
 ul#footer_item {
@@ -57,4 +60,12 @@ div#line {
 
 li#nav_item a:hover ~ div#line {
 	width: 70%;
+}
+
+a:link {
+	color: #ffb62a;
+}
+
+a:visited {
+	color: #ff6a00;
 }
