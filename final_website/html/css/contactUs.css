@@ -3,7 +3,7 @@
  * Date:		3/19/2021	
  * Filename:	contactUs.css
  */
-label.formLabel {
+ label.formLabel {
 	font-weight: bold;
 	padding-left: 4px;
 	padding-top: px;
@@ -37,7 +37,6 @@ textarea {
 	padding-bottom: 10px;
 	padding-left: 20px;
 	padding-right: 20px;
-
 }
 
 #submit:hover {

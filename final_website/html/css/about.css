@@ -16,7 +16,6 @@ body {
 	font-family: 'Verdana', Fallback, sans-serif;
 	margin: 0px;
 	padding: 0px;
-
 }
 
 p {
@@ -70,7 +69,6 @@ p {
 	display: inline-block;
 	padding-right: 20px;
 	padding-left: 3px;
-
 }
 
 #footer_item a, #footer_item h2 {

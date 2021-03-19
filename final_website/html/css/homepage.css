@@ -3,7 +3,7 @@
  * Date:		3/19/2021	
  * Filename:	homepage.css
  */
-body#home {
+ body#home {
 	padding: 0px;
 	margin: 0px;
 	font-family: 'Verdana', Fallback, sans-serif;
@@ -13,7 +13,7 @@ body#home {
 	background-size: cover;
 }
 
-#calH{
+#calH {
 	position: relative;
 	left: 190px;
 }
@@ -36,6 +36,7 @@ body#home {
 	background-color: rgba(156,183,187,.85);
 	width: 60px;
 }
+
 #dateCal {
 	background-color: rgba(156,183,187,.85);
 	border-spacing: 10px;

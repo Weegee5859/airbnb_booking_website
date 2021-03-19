@@ -10,102 +10,107 @@ Filename:	thingsToDo.html
 -->
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Things To Do</title>
-		<link rel="stylesheet" href="css/thingsToDo.css">
-		<link rel="stylesheet" href="css/stylesheet.css" />
-	</head>
-	<body>
-		<header>
-			<ul id="nav_list">
-				<li id="nav_item"><a href="home.html">Home</a><div id="line"></div></li>
-				<li id="nav_item"><a href="about.html">About Us</a><div id="line"></div></li>
-				<li id="nav_item"><a href="contact.html">Contact Us</a><div id="line"></div></li>
-				<li id="nav_item"><a href="gallery.html">Gallery</a><div id="line"></div></li>
-				<li id="nav_item"><a href="thingsToDo.html">Things To Do</a><div id="line"></div></li>
-			</ul>
-		</header>
-		<h1 class="topMessage">Things to do</h1>
-		<h3 class="topMessage">These are our favorite things to do in the area around the house.</h3>
-		<!--Dropdown Menu-->
-		<select> 
-			<option value="choose_category">Choose a category...</option>
-			<option value="restaurants">Restaurants</option>
-			<option value="theme_parks">Theme Parks</option>
-			<option value="entertainment">Entertainment </option>
-		</select>
-
-		<!--Container for restaurant table.-->
-		<div id="restTable">
-			<table class="toDoTable">
-				<tr>
-					<td><img src="resources/seasons52.jpg" class="toDoImg"></td>
-					<td class="toDoDsrptn">
-						<h3>Seasons 52</h3>
-						<p>This is a fancy restaurant with a dazzling atmosphere and great food.</p>
-					</td>
-				</tr>
-				<tr>
-					<td><img src="resources/Santiagos.jpg" class="toDoImg"></td>
-					<td class="toDoDsrptn">
-						<h3>Santiago's Bodega</h3>
-						<p>This is also a fancy restaurant with great food.</p>
-					</td>
-				</tr>
-			</table>
+<head>
+	<title>Things To Do</title>
+	<link rel="stylesheet" href="css/thingsToDo.css">
+	<link rel="stylesheet" href="css/stylesheet.css" />
+</head>
+<!--include header.html-->
+<!--<?php include 'header.html';?>-->
+<body>
+	<header>
+		<ul id="nav_list">
+			<li id="nav_item"><a href="home.html">Home</a>
+				<div id="line"></div>
+			</li>
+			<li id="nav_item"><a href="about.html">About Us</a>
+				<div id="line"></div>
+			</li>
+			<li id="nav_item"><a href="contact.html">Contact Us</a>
+				<div id="line"></div>
+			</li>
+			<li id="nav_item"><a href="gallery.html">Gallery</a>
+				<div id="line"></div>
+			</li>
+			<li id="nav_item"><a href="thingsToDo.html">Things To Do</a>
+				<div id="line"></div>
+			</li>
+		</ul>
+	</header>
+	<h1 class="topMessage">Things to do</h1>
+	<h3 class="topMessage">These are our favorite things to do in the area around the house.</h3>
+	<!--Dropdown Menu-->
+	<select>
+		<option value="choose_category">Choose a category...</option>
+		<option value="restaurants">Restaurants</option>
+		<option value="theme_parks">Theme Parks</option>
+		<option value="entertainment">Entertainment </option>
+	</select>
+	<!--Container for restaurant table.-->
+	<div id="restTable">
+		<table class="toDoTable">
+			<tr>
+				<td><img src="resources/seasons52.jpg" class="toDoImg"></td>
+				<td class="toDoDsrptn">
+					<h3>Seasons 52</h3>
+					<p>This is a fancy restaurant with a dazzling atmosphere and great food.</p>
+				</td>
+			</tr>
+			<tr>
+				<td><img src="resources/Santiagos.jpg" class="toDoImg"></td>
+				<td class="toDoDsrptn">
+					<h3>Santiago's Bodega</h3>
+					<p>This is also a fancy restaurant with great food.</p>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<!--Container for theme park table.-->
+	<div id="parkTable">
+		<table class="toDoTable">
+			<tr>
+				<td><img src="resources/disney.jpg" class="toDoImg"></td>
+				<td class="toDoDsrptn">
+					<h3>Walt Disney World</h3>
+					<p>The world renown Walt Disney theme parks are sure to leave you with lifelong memories.</p>
+				</td>
+			</tr>
+			<tr>
+				<td><img src="resources/universal.jpg" class="toDoImg"></td>
+				<td class="toDoDsrptn">
+					<h3>Universal Studios</h3>
+					<p>This world class theme park is sure to be a blast for the whole family.</p>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<!--Container for entertainment table.-->
+	<div id="entTable">
+		<table class="toDoTable">
+			<tr>
+				<td><img src="resources/artMuseum.jpg" class="toDoImg"></td>
+				<td class="toDoDsrptn">
+					<h3>Orlando Museum of Art</h3>
+					<p>A spectacular museum showcasing some of Orlando's most beautiful art.</p>
+				</td>
+			</tr>
+			<tr>
+				<td><img src="resources/historyMuseum.jpg" class="toDoImg"></td>
+				<td class="toDoDsrptn">
+					<h3>Orange County Regional History Center</h3>
+					<p>This facinating history center is the place to go to learn about Central Florida's rich and diverse past.</p>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<footer>
+		<!--Will replace with PHP-->
+		<div id="footer_container">
+			<p> 1234 South Street - Orlando, FL
+				<br> Phone: <a href="#">407-123-4567</a>
+				<br> E-mail: <a href="#">vacayhouse@gmail.com</a>
+				<br> <a href="#">Instagram</a> - <a href="#">Facebook</a> - <a href="#">Twitter</a> </p>
 		</div>
-
-		<!--Container for theme park table.-->
-		<div id="parkTable">
-			<table class="toDoTable">
-				<tr>
-					<td><img src="resources/disney.jpg" class="toDoImg"></td>
-					<td class="toDoDsrptn">
-						<h3>Walt Disney World</h3>
-						<p>The world renown Walt Disney theme parks are sure to leave you with lifelong memories.</p>
-					</td>
-				</tr>
-				<tr>
-					<td><img src="resources/universal.jpg" class="toDoImg"></td>
-					<td class="toDoDsrptn">
-						<h3>Universal Studios</h3>
-						<p>This world class theme park is sure to be a blast for the whole family.</p>
-					</td>
-				</tr>
-			</table>
-		</div>
-
-		<!--Container for entertainment table.-->
-		<div id="entTable">
-			<table class="toDoTable">
-				<tr>
-					<td><img src="resources/artMuseum.jpg" class="toDoImg"></td>
-					<td class="toDoDsrptn">
-						<h3>Orlando Museum of Art</h3>
-						<p>A spectacular museum showcasing some of Orlando's most beautiful art.</p>
-					</td>
-				</tr>
-				<tr>
-					<td><img src="resources/historyMuseum.jpg" class="toDoImg"></td>
-					<td class="toDoDsrptn">
-						<h3>Orange County Regional History Center</h3>
-						<p>This facinating history center is the place to go to learn about Central Florida's rich and diverse past.</p>
-					</td>
-				</tr>
-			</table>
-		</div>
-
-		<footer>
-			<!--Will replace with PHP-->
-			<div id="footer_container">
-				<p>
-					1234 South Street - Orlando, FL <br>
-					Phone: <a href="#">407-123-4567</a><br>
-					E-mail: <a href="#">vacayhouse@gmail.com</a> <br>
-					<a href="#">Instagram</a>  -  <a href="#">Facebook</a>  -  <a href="#">Twitter</a>
-				</p>
-	
-			</div>
-		</footer>
-	</body>
+	</footer>
+</body>
 </html>
