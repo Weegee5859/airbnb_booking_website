@@ -1,15 +1,13 @@
 /*
- * JavaScript 6th Edition
- * Author:	 Evan, Jordon, Joshua, Nathan
- * Date:	 3/19/2021	
- * Filename: homepage.css
+ * Author:		Evan Tatavitto, Jordan Bender, Joshua Marshall, Nathan Mousinho Elias
+ * Date:		3/19/2021	
+ * Filename:	homepage.css
  */
 body#home {
 	padding: 0px;
 	margin: 0px;
 	font-family: 'Verdana', Fallback, sans-serif;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../resources/vac_house.jpg");
-	background-color: rgb(30,30,30);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;

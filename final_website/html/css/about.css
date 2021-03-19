@@ -1,8 +1,7 @@
 /*
- * JavaScript 6th Edition
- * Author:	 Evan, Jordon, Joshua, Nathan
- * Date:	 3/19/2021	
- * Filename: about.css
+ * Author:		Evan Tatavitto, Jordan Bender, Joshua Marshall, Nathan Mousinho Elias
+ * Date:		3/19/2021	
+ * Filename:	about.css
  */
 /* General Changes for all elements */
 a:link {
@@ -14,7 +13,6 @@ a:visited {
 }
 
 body {
-	color: #262626;
 	font-family: 'Verdana', Fallback, sans-serif;
 	margin: 0px;
 	padding: 0px;
@@ -24,7 +22,6 @@ body {
 p {
 	font-size: 16px;
 }
-
 
 /* About Us top image banner */
 #banner_image_container {
@@ -59,7 +56,6 @@ p {
 	padding-top: 50px;
 	text-align: center;
 }
-
 
 /* Footer */
 #footer_container {
