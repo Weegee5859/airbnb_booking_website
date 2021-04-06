@@ -16,27 +16,8 @@ Filename:	thingsToDo.html
 	<link rel="stylesheet" href="css/stylesheet.css" />
 </head>
 <!--include header.html-->
-<!--<?php include 'header.html';?>-->
+<?php include 'header.html';?>
 <body>
-	<header>
-		<ul id="nav_list">
-			<li id="nav_item"><a href="home.html">Home</a>
-				<div id="line"></div>
-			</li>
-			<li id="nav_item"><a href="about.html">About Us</a>
-				<div id="line"></div>
-			</li>
-			<li id="nav_item"><a href="contact.html">Contact Us</a>
-				<div id="line"></div>
-			</li>
-			<li id="nav_item"><a href="gallery.html">Gallery</a>
-				<div id="line"></div>
-			</li>
-			<li id="nav_item"><a href="thingsToDo.html">Things To Do</a>
-				<div id="line"></div>
-			</li>
-		</ul>
-	</header>
 	<h1 class="topMessage">Things to do</h1>
 	<h3 class="topMessage">These are our favorite things to do in the area around the house.</h3>
 	<!--Dropdown Menu-->
@@ -103,14 +84,6 @@ Filename:	thingsToDo.html
 			</tr>
 		</table>
 	</div>
-	<footer>
-		<!--Will replace with PHP-->
-		<div id="footer_container">
-			<p> 1234 South Street - Orlando, FL
-				<br> Phone: <a href="#">407-123-4567</a>
-				<br> E-mail: <a href="#">vacayhouse@gmail.com</a>
-				<br> <a href="#">Instagram</a> - <a href="#">Facebook</a> - <a href="#">Twitter</a> </p>
-		</div>
-	</footer>
+	<?php include 'footer.html';?>
 </body>
 </html>

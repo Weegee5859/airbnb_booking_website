@@ -7,7 +7,7 @@
 	padding: 0px;
 	margin: 0px;
 	font-family: 'Verdana', Fallback, sans-serif;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../resources/vac_house.jpg");
+	background-image: linear-gradient(#b5e2e340, #296d70B4), url("../resources/vac_house.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -15,7 +15,7 @@
 
 #calH {
 	position: relative;
-	left: 190px;
+	text-align: center;
 }
 
 #dates {
@@ -38,6 +38,7 @@
 }
 
 #dateCal {
+	text-align: center;
 	background-color: rgba(156,183,187,.85);
 	border-spacing: 10px;
 }

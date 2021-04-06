@@ -13,7 +13,7 @@ Filename:	contact.html
 	<link rel="stylesheet" href="css/stylesheet.css" />
 </head>
 <!--include header.html-->
-<!--<?php include 'header.html';?>-->
+<?php include 'header.html';?>
 <body>
 	<header>
 		<ul id="nav_list">
@@ -62,14 +62,6 @@ Filename:	contact.html
 				<input type="submit" id="submit" class="formInput"> </label>
 		</form>
 	</div>
-	<footer>
-		<!--Will replace with PHP-->
-		<div id="footer_container">
-			<p> 1234 South Street - Orlando, FL
-				<br> Phone: <a href="#">407-123-4567</a>
-				<br> E-mail: <a href="#">vacayhouse@gmail.com</a>
-				<br> <a href="#">Instagram</a> - <a href="#">Facebook</a> - <a href="#">Twitter</a> </p>
-		</div>
-	</footer>
+	<?php include 'footer.html';?>
 </body>
 </html>

@@ -14,19 +14,11 @@ Filename:	home.html
 	<link rel="stylesheet" href="css/homepage.css" />
 </head>
 <body id="home" >
-	<header>
-		<ul id="nav_list">
-			<li id="nav_item"><a href="home.html">Home</a><div id="line"></div></li>
-			<li id="nav_item"><a href="about.html">About Us</a><div id="line"></div></li>
-			<li id="nav_item"><a href="contact.html">Contact Us</a><div id="line"></div></li>
-			<li id="nav_item"><a href="gallery.html">Gallery</a><div id="line"></div></li>
-			<li id="nav_item"><a href="thingsToDo.html">Things To Do</a><div id="line"></div></li>
-		</ul>
-	</header>
+	<?php include 'header.html';?>
 	<!--will be changed to better pictuer, closer up.-->
 	<div>
 	<p> <!--title for calander.-->
-		<h2  id="calH">Book A Day!</h2>
+		<h2 id="calH">Book A Day!</h2>
 	</p>
 	<div id="dates">
 		<!--Calander will update to have JavaScript/PHP-->
@@ -100,16 +92,6 @@ Filename:	home.html
 		</table>
 	</div>
 	</div>
-	<footer>
-		<!--Will replace with PHP-->
-		<div id="footer_container">
-			<p>
-				1234 South Street - Orlando, FL <br>
-				Phone: <a href="#">407-123-4567</a><br>
-				E-mail: <a href="#">vacayhouse@gmail.com</a> <br>
-				<a href="#">Instagram</a>  -  <a href="#">Facebook</a>  -  <a href="#">Twitter</a>
-			</p>
-		</div>
-	</footer>
+	<?php include 'footer.html';?>
 </body>
 </html>
