@@ -4,40 +4,142 @@
  * Filename:	homepage.css
  */
 
+svg {
+	display: block;
+	margin: auto;
+}
 
-body#home {
+#website_title {
+	color: #f8f8ff;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#website_motto {
+	font-size: 24px;
+	font-weight: lighter;
+	color: #f8f8ff;
+	font-style: italic;
+}
+
+#website_motto_contrast {
+	color: #ff6a00;
+	font-style: italic;
+}
+/* overwirtting header css */
+#nav_list {
+	background-color: rgba(0,0,0,0);
+}
+
+#top_image_container {
 	background-image: linear-gradient(#b5e2e340, #296d70B4), url("../resources/vac_house.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	height: 100vh;
+	text-align: center;
 }
 
 #calH {
+	color: #f8f8ff;
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: 80px;
+	margin-bottom: 10px;
 	position: relative;
 	text-align: center;
 }
 
+#contact_us_button {
+	background-color: #ff6a00;
+	border: 0px solid rgba(0,0,0,0);
+	border-radius: 8px;
+	color: #f8f8ff;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: .5px;
+	margin-left: 30px;
+	margin-top: 15px;
+	padding: 12px;
+	padding-left: 17px;
+	padding-right: 17px;
+	text-align: center;
+}
+
 #dates {
-	height: 270px;
-	width: 328px;
-	position: center;
-	margin: 100px;
+	padding: 15px;
+}
+
+
+#home_input_date {
+	border-radius: 8px;
+	padding: 10px;
+	width: 175px;
+	border: 0px solid white;
 }
 
 #prev {
-	background-color: rgba(156,183,187,.85);
-	width: 90px;
 	border-color: black;
 	border: 20px;
+	display: inline-block;
+	width: 90px;
 }
 
 #next {
-	background-color: rgba(156,183,187,.85);
+	display: inline-block;
 	width: 60px;
 }
 
 #dateCal {
 	text-align: center;
-	background-color: rgba(156,183,187,.85);
-	border-spacing: 10px;
+	border-spacing: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-bottom: 2px;
+}
+#dateCal th {
+	color: #6c7275;
+	font-size: 17px;
+}
+
+#dateCal td {
+	padding: 6px;
+	border: 2px solid rgba(0,0,0,0);
+	color: #353839;
+	font-size: 15px;
+	font-weight: bold;
+	transition: color 0.3s ease-out, border 0.3s ease-out;
+	text-align: center;
+}
+
+#dateCal td:hover {
+	border: 2px solid red;
+	color: red;
+}
+
+#dateCal caption {
+	color: #353839;
+	font-size: 18px;
+	padding: 5px;
+	
+}
+
+#dateCal_container {
+	background-color: #f8f8ff;
+	display:inline-block;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 15px;
+	border-top-right-radius: 0px;
+}
+
+#prev_next_buttons_container {
+	margin: 15px;
+}
+
+#prev_next_buttons_container div {
+	margin-left: 15px;
+	margin-right: 15px;
 }
