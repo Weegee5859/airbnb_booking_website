@@ -15,25 +15,6 @@ Filename:	contact.html
 <!--include header.html-->
 <?php include 'header.html';?>
 <body>
-	<header>
-		<ul id="nav_list">
-			<li id="nav_item"><a href="home.html">Home</a>
-				<div id="line"></div>
-			</li>
-			<li id="nav_item"><a href="about.html">About Us</a>
-				<div id="line"></div>
-			</li>
-			<li id="nav_item"><a href="contact.html">Contact Us</a>
-				<div id="line"></div>
-			</li>
-			<li id="nav_item"><a href="gallery.html">Gallery</a>
-				<div id="line"></div>
-			</li>
-			<li id="nav_item"><a href="thingsToDo.html">Things To Do</a>
-				<div id="line"></div>
-			</li>
-		</ul>
-	</header>
 	<h1>Contact Us</h1>
 	<h3>Do you have any question? Let us know how we can assist you.</h3>
 	<!--Form Fields-->

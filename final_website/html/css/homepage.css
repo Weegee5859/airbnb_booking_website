@@ -3,10 +3,9 @@
  * Date:		3/19/2021	
  * Filename:	homepage.css
  */
- body#home {
-	padding: 0px;
-	margin: 0px;
-	font-family: 'Verdana', Fallback, sans-serif;
+
+
+body#home {
 	background-image: linear-gradient(#b5e2e340, #296d70B4), url("../resources/vac_house.jpg");
 	background-position: center;
 	background-repeat: no-repeat;

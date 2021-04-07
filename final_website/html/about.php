@@ -12,9 +12,11 @@ Filename:	about.html
 	<link rel="stylesheet" href="css/about.css">
 	<link rel="stylesheet" href="css/stylesheet.css" />
 </head>
-<!--include header.html-->
-<?php include 'header.html';?>
+
 <body>
+	<!--include header.html-->
+	<?php include 'header.html';?>
+
 	<div id="banner_image_container">
 		<div id="banner_text_container">
 			<p id="banner_title">About Us</p>
@@ -56,8 +58,9 @@ Filename:	about.html
 		</div>
 	</div>
 	</div>
+	<!--include footer.html-->
+	<?php include 'footer.html';?>
 </body>
-<!--include footer.html-->
-<?php include 'footer.html';?>
+
 <script src="js/scripts.js"></script>
 </html>
