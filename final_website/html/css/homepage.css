@@ -217,6 +217,7 @@ cursor: default;
 
 #package_description {
 	border: 2px solid yellow;
+	font-size: 18px;
 	margin: auto;
 	margin-left: 20px;
 	max-width: 500px;
@@ -231,3 +232,27 @@ cursor: default;
 	display: flex;
 	flex-wrap: wrap;
 }
+
+#getaway_package_title {
+	text-align: center;
+}
+
+#scroll_down {
+	position: absolute;
+	text-align: center;
+	top: calc(100vh - 125px);
+	width: 100vw;
+	
+}
+
+#down_arrow {
+	animation: bounce 2.5s infinite;
+}
+
+@keyframes bounce {
+	0%, 100% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-10px);
+	}
