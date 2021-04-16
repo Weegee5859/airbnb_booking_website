@@ -248,7 +248,7 @@ cursor: default;
 	text-align: center;
 	top: calc(100vh - 125px);
 	width: 100vw;
-	
+	font-size: max(2vw, 30px);
 }
 
 #down_arrow {

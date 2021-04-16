@@ -106,7 +106,7 @@ Filename:	home.html
 		<input type="date" id="home_input_date">
 		<a id="contact_us_button" href="contact.php">Get Started!</a>
 
-		<h2 id="scroll_down">Scroll Down to Learn More! <img id="down_arrow" src="resources/down_arrow.png"></h2>
+		<h1 id="scroll_down">Scroll Down to Learn More! <img id="down_arrow" src="resources/down_arrow.png"></h1>
 	</div>
 	<!--outside of starter screen (below the background img)-->
 	<h1 id="getaway_package_title">Check out what's included in our Getaway Package!</h1>
