@@ -26,6 +26,14 @@ option {
 	background-color: rgba(155, 216, 218, 1);
 }
 
+#banner_title:after {
+	content: "Things to do";
+}
+
+#banner_text:after {
+	content: "Some of our favorite things to do when visiting our Vacation Home.";
+}
+
 /* Message at the top of 'things to do' */
 .topMessage {
 	text-align: center;

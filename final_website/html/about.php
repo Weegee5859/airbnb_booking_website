@@ -9,20 +9,13 @@ Filename:	about.html
 <head>
 	<meta charset="utf-8">
 	<title>About Us</title>
-	<link rel="stylesheet" href="css/about.css">
 	<link rel="stylesheet" href="css/stylesheet.css" />
+	<link rel="stylesheet" href="css/about.css">
 </head>
 
 <body>
-	<!--include header.html-->
-	<?php include 'header.html';?>
-
-	<div id="banner_image_container">
-		<div id="banner_text_container">
-			<p id="banner_title">About Us</p>
-			<p id="banner_text">Indulge yourself in an unforgettable vacation experience with the comforts of home!</p>
-		</div>
-	</div>
+	<!--include header_with_banner.html-->
+	<?php include 'header_with_banner.html';?>
 	<!--About Us Page Text-->
 	<div id="main_container">
 		<div id="paragraph_text_container">

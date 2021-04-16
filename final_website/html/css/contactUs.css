@@ -3,6 +3,15 @@
  * Date:		3/19/2021	
  * Filename:	contactUs.css
  */
+ 
+#banner_title:after {
+	content: "Contact Us";
+}
+
+#banner_text:after {
+	content: "Got Questions For Us? We Can Assist You!";
+}
+
  label.formLabel {
 	font-weight: bold;
 	padding-left: 4px;

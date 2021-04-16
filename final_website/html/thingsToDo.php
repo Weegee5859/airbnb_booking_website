@@ -12,14 +12,14 @@ Filename:	thingsToDo.html
 <html lang="en">
 <head>
 	<title>Things To Do</title>
-	<link rel="stylesheet" href="css/thingsToDo.css">
 	<link rel="stylesheet" href="css/stylesheet.css" />
+	<link rel="stylesheet" href="css/thingsToDo.css">
 </head>
-<!--include header.html-->
-<?php include 'header.html';?>
+<!--include header_with_banner.html-->
+<?php include 'header_with_banner.html';?>
 <body>
-	<h1 class="topMessage">Things to do</h1>
-	<h3 class="topMessage">These are our favorite things to do in the area around the house.</h3>
+	<!--<h1 class="topMessage">Things to do</h1>-->
+	<!--<h3 class="topMessage">These are our favorite things to do in the area around the house.</h3>-->
 	<!--Dropdown Menu-->
 	<select>
 		<option value="choose_category">Choose a category...</option>

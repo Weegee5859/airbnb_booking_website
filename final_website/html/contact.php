@@ -9,14 +9,15 @@ Filename:	contact.html
 <head>
 	<meta charset="utf-8">
 	<title>Contact Us</title>
-	<link rel="stylesheet" href="css/contactUs.css">
 	<link rel="stylesheet" href="css/stylesheet.css" />
+	<link rel="stylesheet" href="css/contactUs.css">
+	
 </head>
-<!--include header.html-->
-<?php include 'header.html';?>
+	<!--include header_with_banner.html-->
+	<?php include 'header_with_banner.html';?>
 <body>
-	<h1>Contact Us</h1>
-	<h3>Do you have any question? Let us know how we can assist you.</h3>
+	<!--<h1>Contact Us</h1>-->
+	<!--<h3>Got Questions For Us? We Can Assist You!</h3>-->
 	<!--Form Fields-->
 	<div class="contactUsForm">
 		<form>

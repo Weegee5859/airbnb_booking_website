@@ -8,16 +8,16 @@ Filename:	gallery.html
 
 <head>
 	<title>Gallery</title>
-	<link rel="stylesheet" href="css/gallery.css" />
 	<link rel="stylesheet" href="css/stylesheet.css" />
+	<link rel="stylesheet" href="css/gallery.css" />
 </head>
-<!--include header.html-->
-<!--<?php include 'header.html';?>-->
+<!--include header_with_banner.html-->
+	<?php include 'header_with_banner.html';?>
 <body>
 	<!--Gallery Page-->
 	<div id="galleryDiv">
-		<h1>Gallery</h1>
-		<h3>Our home is now your home!</h3>
+		<!--<h1>Gallery</h1>-->
+		<!--<h3>Our home is now your home!</h3>-->
 		<p class="gallery"> We offer our guests an exceptional 5-start luxury decorated and fully furnished house so you can enjoy your stay the way you deserve! </p>
 		<!--Galery table to show all pictures at once-->
 		<table class="galleryTable">

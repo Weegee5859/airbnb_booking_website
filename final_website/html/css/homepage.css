@@ -37,7 +37,7 @@ svg {
 }
 
 #start_screen_container {
-	background-image: linear-gradient(#b5e2e340, #296d70B4), url("../resources/vac_house.jpg");
+	background-image: linear-gradient(#b5e2e340, #296d70B4), url("../resources/photo_1.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -69,6 +69,12 @@ svg {
 	padding-left: 17px;
 	padding-right: 17px;
 	text-align: center;
+	text-decoration: none;
+	transition: background-color 0.7s ease;
+}
+
+#contact_us_button:hover {
+	background-color: #ffb62a;
 }
 
 #dates {

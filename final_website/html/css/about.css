@@ -4,40 +4,17 @@
  * Filename:	about.css
  */
 
-/* About Us top image banner */
+#banner_title:after {
+	content: "About Us";
+}
+
+#banner_text:after {
+	content: "Indulge yourself in an unforgettable vacation experience with the comforts of home!";
+}
+
 #banner_image_container {
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
-	height: 20vh;
 	background-image: linear-gradient(#b5e2e340, #296d70B4), url("../resources/vac_house.jpg");
 }
-
-#banner_text_container {
-	height: 100%;
-	margin: 0px;
-	width: 100%;
-}
-
-/* About Us top image banners lower text */
-#banner_text {
-	color: white;
-	font-size: 13px;
-	margin: 0px;
-	text-align: center;
-}
-
-/* About Us top image banners title */
-#banner_title {
-	color: white;
-	font-size: 50px;
-	margin: 0px;
-	padding: 8px;
-	padding-top: 50px;
-	text-align: center;
-}
-
 
 #paragraph_header {
 	color: white;

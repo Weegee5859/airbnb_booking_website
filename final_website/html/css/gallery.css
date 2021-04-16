@@ -11,6 +11,15 @@ h3 {
 	text-align: center;
 }
 
+
+#banner_title:after {
+	content: "Gallery";
+}
+
+#banner_text:after {
+	content: "Our Home is Now Your Home!";
+}
+
 .galleryTable {
 	margin-left: auto;
 	margin-right: auto;

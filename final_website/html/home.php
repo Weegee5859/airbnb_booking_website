@@ -104,7 +104,7 @@ Filename:	home.html
 		</div>
 
 		<input type="date" id="home_input_date">
-		<button type="button" id="contact_us_button">Get Started!</button>
+		<a id="contact_us_button" href="contact.php">Get Started!</a>
 
 		<h2 id="scroll_down">Scroll Down to Learn More! <img id="down_arrow" src="resources/down_arrow.png"></h2>
 	</div>
