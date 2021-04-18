@@ -39,19 +39,24 @@ Filename:	gallery.html
 		<h3>Our home is now your home!</h3>
 		<p class="gallery"> We offer our guests an exceptional 5-start luxury decorated and fully furnished house so you can enjoy your stay the way you deserve! </p>
 		<!--Galery table to show all pictures at once-->
-		<table class="galleryTable">
-			<!--First row-->
-			<tr class="galleryTR">
-				<td class="galleryTD"> <img src="resources/photo_1.jpg" alt="photo_1" class="galleryPhoto"> </td>
-				<td class="galleryTD"> <img src="resources/photo_2.jpg" alt="photo_2" class="galleryPhoto"> </td>
-				<td class="galleryTD"> <img src="resources/photo_3.jpg" alt="photo_3" class="galleryPhoto"> </td>
-			</tr>
-			<!--Second row-->
-			<tr class="galleryTR">
-				<td class="galleryTD"> <img src="resources/photo_4.jpg" alt="photo_4" class="galleryPhoto"> </td>
-				<td class="galleryTD"> <img src="resources/photo_5.jpg" alt="photo_5" class="galleryPhoto"> </td>
-				<td class="galleryTD"> <img src="resources/photo_6.jpg" alt="photo_6" class="galleryPhoto"> </td>
-			</tr>
+		<table>
+			<article>
+				<div id="leftarrow">
+					<p>&lt;</p>
+				</div>
+				<figure id="fig2">
+					<img width="540" height="320" />
+				</figure>
+				<figure id="fig3">
+					<img width="600" height="400" />
+				</figure>
+				<figure id="fig4">
+					<img width="540" height="320" />
+				</figure>
+				<div id="rightarrow">
+					<p>&gt;</p>
+				</div>
+			</article>
 		</table>
 	</div>
 	<footer>
@@ -63,6 +68,7 @@ Filename:	gallery.html
 				<br> <a href="#">Instagram</a> - <a href="#">Facebook</a> - <a href="#">Twitter</a> </p>
 		</div>
 	</footer>
+	<script src="gallery.js"></script>
 </body>
 <!--include footer.html-->
 <!--<?php include 'footer.html';?>-->

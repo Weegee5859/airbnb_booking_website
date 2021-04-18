@@ -3,12 +3,83 @@
  * Date: 		3/19/2021	
  * Filename:	gallery.css
  */
- h1 {
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+h1 {
 	text-align: center;
 }
 
 h3 {
 	text-align: center;
+}
+
+article {
+	background: white;
+	position: relative;
+}
+
+table {
+	position: relative;
+	width: 960px;
+}
+
+#leftarrow, #rightarrow {
+	background: #696565;
+	color: white;
+	position: absolute;
+	z-index: 30;
+	text-align: center;
+	height: 135px;
+	width: 40px;
+	top: 67px;
+}
+
+article div:hover {
+	cursor: default;
+}
+
+#leftarrow {
+	left: 0;
+}
+
+#rightarrow {
+	right: 0;
+}
+
+#leftarrow p, #rightarrow p {
+	position: relative;
+	top: 50%;
+	margin-top: -0.5em;
+}
+
+figure {
+	position: absolute;
+	-webkit-box-shadow: 10px 0px 5px #9bd8da, -10px 0px 5px #9bd8da;
+	-moz-box-shadow: 10px 0px 5px #9bd8da, -10px 0px 5px #9bd8da;
+	box-shadow: 10px 0px 5px #9bd8da, -10px 0px 5px #9bd8da;
+}
+
+#fig2 {
+	z-index: 10;
+	left: 13%;
+	top: 34px;
+}
+
+#fig3 {
+	z-index: 20;
+	left: 50%;
+	margin-left: -300px;
+	top: 0;
+}
+
+#fig4 {
+	z-index: 10;
+	right: 13%;
+	top: 34px;
 }
 
 .galleryTable {
