@@ -11,9 +11,10 @@ Filename:	gallery.html
 	<link rel="stylesheet" href="css/stylesheet.css" />
 	<link rel="stylesheet" href="css/gallery.css" />
 </head>
-<!--include header_with_banner.html-->
-	<?php include 'header_with_banner.html';?>
+
 <body>
+	<!--include header_with_banner.html-->
+	<?php include 'header_with_banner.html';?>
 	<!--Gallery Page-->
 	<div id="galleryDiv">
 		<!--<h1>Gallery</h1>-->
@@ -35,8 +36,9 @@ Filename:	gallery.html
 			</tr>
 		</table>
 	</div>
+	<!--include footer.html-->
+	<?php include 'footer.html';?>
 </body>
-<!--include footer.html-->
-<?php include 'footer.html';?>
+
 <script src="js/scripts.js"></script>
 </html>

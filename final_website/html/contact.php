@@ -21,24 +21,24 @@ Filename:	contact.html
 	<!--Form Fields-->
 	<div class="contactUsForm">
 		<form>
-			<label class="formLabel"> Name:
-				<input type="text" class="formInput">
+			<label class="formLabel">
+				<input type="text" class="formInput" placeholder="Name">
 				<br> </label>
-			<label class="formLabel"> Email:
-				<input type="email" class="formInput">
+			<label class="formLabel">
+				<input type="email" class="formInput" placeholder="Email">
 				<br> </label>
-			<label class="formLabel"> Phone Number:
-				<input type="tel" class="formInput">
+			<label class="formLabel">
+				<input type="tel" class="formInput" placeholder="Phone Number">
 				<br> </label>
-			<label class="formLabel"> Date of Arrival:
-				<input type="date" class="formInput">
+			<label class="formLabel">
+				<input type="date" class="formInput" id="input_arrival">
+				 </label>
+			<label class="formLabel">
+				<input type="date" class="formInput" id="input_departure">
 				<br> </label>
-			<label class="formLabel"> Date of Departure:
-				<input type="date" class="formInput">
-				<br> </label>
-			<label class="formLabel"> Message:
+			<label class="formLabel">
 				<br>
-				<textarea id="textarea" name="textarea" rows="1" cols="50" placeholder="" class="formInput"></textarea>
+				<textarea id="textarea" name="textarea" rows="1" cols="50" placeholder="Optional Message..." class="formInput"></textarea>
 				<br> </label>
 			<label class="formLabel">
 				<input type="submit" id="submit" class="formInput"> </label>

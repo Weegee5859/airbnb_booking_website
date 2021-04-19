@@ -3,13 +3,53 @@
  * Date:		3/19/2021	
  * Filename:	stylesheet.css
  */
- body {
+
+a:link {
+	color: #ffb62a;
+}
+
+a:visited {
+	color: #ff6a00;
+}
+
+body {
 	padding: 0px;
 	margin: 0px;
 	font-family: 'Verdana', Fallback, sans-serif;
 }
 
-/* Image banner */
+html {
+	scroll-behavior: smooth;
+}
+
+input, textarea {
+	border: 2px solid #f1f1f1;
+	border-bottom: 2px solid #b5e2e3;
+	background-color: white;
+	padding: 5px;
+	outline-style: none;
+	transition: 0.2s ease;
+	margin: 5px;
+}
+
+input:focus, textarea:focus {
+	border-bottom: 2px solid #ffb62a;
+}
+
+p {
+	font-size: 16px;
+}
+
+/* Testing placeholder animation
+input:not(:placeholder-shown), input::before {
+	transition: 1s ease;
+	content: "NICE";
+	border: 2px solid lightgreen;
+	margin-bottom: 20px;
+}
+*/
+
+/* Banners elements are on top of each page with page title */
 #banner_image_container {
 	background-position: center;
 	background-repeat: no-repeat;
@@ -24,7 +64,7 @@
 	position: relative;
 }
 
-/* Image banners lower text */
+
 #banner_text {
 	color: white;
 	font-size: 16px;
@@ -33,7 +73,7 @@
 	text-align: center;
 }
 
-/* Image banners title */
+
 #banner_title {
 	color: white;
 	font-size: 50px;
@@ -51,6 +91,7 @@
 	text-align: center;
 }
 
+/* navigation bar list */
 #nav_list {
 	background-color: rgba(0,0,0,0);
 	display: inline-block;
@@ -61,6 +102,7 @@
 	width: 100%;
 }
 
+/* navigation bar item */ 
 #nav_item {
 	display: inline-block;
 }
@@ -72,34 +114,25 @@
 	text-decoration: none;
 	padding-top: 20px;
 	transition: color 0.2s ease;
-	font-size: 17px;
+	font-size: 19px;
+	font-weight: lighter;
 }
 
 #nav_item a:hover {
-	color: red;
+	color: #ffb62a
 }
 
+/* Line that appears below a navigation bar item on hover */
 div#line {
 	display: block;
 	margin: 0 auto;
 	width: 0%;
-	border-bottom: 2px solid red;
+	border-bottom: 2px solid #ffb62a;
 	bottom: 5px;
 	transition: width 0.5s ease;
 }
 
+/* if hovering over a navigation bar item, a line appears*/
 #nav_item a:hover ~ div#line {
 	width: 70%;
-}
-
-a:link {
-	color: #ffb62a;
-}
-
-a:visited {
-	color: #ff6a00;
-}
-
-p {
-	font-size: 16px;
 }

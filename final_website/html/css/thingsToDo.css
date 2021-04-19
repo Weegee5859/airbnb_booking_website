@@ -43,21 +43,102 @@ option {
 .toDoTable {
 	margin-left: auto;
 	margin-right: auto;
-	border-spacing: 15px;
+	border-spacing: 0px;
 }
 
 /* Images for attraction table */
 .toDoImg {
-	border-radius: 8px;
 	width: 600px;
 	height: 450px;
+	margin: 0px;
+	padding: 0px;
 }
 
-/* Attraction name and description */
 .toDoDsrptn {
+	margin-top: 0px;
+	padding-top: 0px;
 	width: 600px;
-	padding: 10px;
-	background-color: #9bd8da;
-	border-radius: 8px;
+}
+/* Attraction name and description */
+
+tr {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	flex-direction: column;
+	background-color: #f1f1f1;
+	margin-bottom: 50px;
+	padding: 0px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-bottom: 2px solid #9bd8da;
+	color: #353839;
+}
+
+tr * {
+	display: block;
+	text-align: center;
+	padding: 5px;
+
+}
+
+td {
+	padding: 0px;
+}
+
+h3 {
+	color: #353839;
+	width: 50%;
+	margin: auto;
+}
+
+h3::after {
+	display: block;
+	border-bottom: 2px solid #ffb62a;
+	content: " ";
+	width: 40%;
+	text-align: center;
+	margin: auto;
+	padding-top: 5px;
+}
+
+#restTable::before {
+	align-content: center;
+	color: #353839;
+	content: "Restaurants";
+	display: flex;
+	font-size: 35px;
+	font-weight: bold;
+	font-style: italic;
+	justify-content: center;
+	margin: auto;
+	padding-bottom: 12px;
+	text-align: center;
+}
+
+#parkTable::before {
+	align-content: center;
+	color: #353839;
+	content: "Theme Parks";
+	display: flex;
+	font-size: 35px;
+	font-weight: bold;
+	font-style: italic;
+	justify-content: center;
+	margin: auto;
+	padding-bottom: 12px;
+	text-align: center;
+}
+
+#entTable::before {
+	align-content: center;
+	color: #353839;
+	content: "Entertainment";
+	display: flex;
+	font-size: 35px;
+	font-weight: bold;
+	font-style: italic;
+	justify-content: center;
+	margin: auto;
+	padding-bottom: 12px;
 	text-align: center;
 }

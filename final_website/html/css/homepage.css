@@ -41,6 +41,7 @@ svg {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	image-rendering: -webkit-optimize-contrast;
 	height: 100vh;
 	text-align: center;
 }
@@ -187,42 +188,58 @@ cursor: default;
 	float: right;
 }
 
-/* testing */
+/* Getaway Packages */
 #package{
-	border: 2px solid red;
-	justify-content: center;
+	display: flex;
+	flex-wrap: nowrap;
+	text-align: center;
+
+}
+
+/* Contains all #package div's (2nd portion of the homepage)*/
+#packages {
 	display: flex;
 	flex-wrap: wrap;
-	flex: 1 1 45vw;
+	justify-content: center;
+}
+
+#package_container {
+	background-color: #1a4547;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display: flex;
+	flex-wrap: nowrap;
+	margin: 15px;
+	padding: 7px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 #package_img_container {
-	text-align: center;
+	justify-content: center;
 	padding: 10px;
+	text-align: center;
 }
 
 #package_img_skewer{
-	display: flex;
-	width: 100px;
+	border: 2px solid #9bd8da;
 	height: 100px;
-	border: 2px solid blue;
-	transform: rotate(50deg);
 	margin: 45px;
-	padding: 15px;
 	overflow: hidden;
+	padding: 15px;
+	transform: rotate(50deg);
+	width: 100px;
 
 }
 
 #package_img{
-	width: 200%;
 	height: 200%;
-	transform: rotate(-50deg);
-	object-fit:cover;
 	margin: -50% -50%;
+	object-fit:cover;
+	transform: rotate(-50deg);
+	width: 200%;
 }
 
 #package_description {
-	border: 2px solid yellow;
 	font-size: 18px;
 	margin: auto;
 	margin-left: 20px;
@@ -234,10 +251,7 @@ cursor: default;
 	font-weight: bold;
 }
 
-#package_container {
-	display: flex;
-	flex-wrap: wrap;
-}
+
 
 #getaway_package_title {
 	text-align: center;
@@ -262,3 +276,4 @@ cursor: default;
 	50% {
 		transform: translateY(-10px);
 	}
+}

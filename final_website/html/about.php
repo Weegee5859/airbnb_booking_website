@@ -18,36 +18,48 @@ Filename:	about.html
 	<?php include 'header_with_banner.html';?>
 	<!--About Us Page Text-->
 	<div id="main_container">
+		<h2 id="paragraph_header">Who We Are</h2>
 		<div id="paragraph_text_container">
-			<h2 id="paragraph_header">Who We Are</h2>
-			<p> We are a company that believes that you deserve to take a break and visit the most magical place on earth! We offer our guests an exceptional 5-start luxury decorated and fully furnished house so you can enjoy your stay the way you deserve! </p>
-			<h2 id="paragraph_header">Our Promise</h2>
+			<p> Our company believes that when you want a vacation, you should never have to settle. Which is why our vacation home, we offer our guests an exceptional 5-start luxury decorated <i>and</i> fully furnished house so you can thoroughly enjoy your stay! </p>
+		</div>
+		<h2 id="paragraph_header">Our Promise</h2>
+		<div id="paragraph_text_container">
 			<p> We promise and guarantee that our guests will have an experience like never before. </p>
 		</div>
+
 		<!--About Us Steps-->
+		<h2 id="paragraph_header_special">Our Process</h2>
+		<h2 id="steps_introduction">Start Your Vacation in 3 Easy Steps...</h2>
 		<div id="steps_container">
 			<div id="steps">
-				<div id="steps_icon_container"> <img id="steps_icon" src="resources/calendar.png"></i>
+				<p id="steps_number">1</p>
+				<div id="steps_icon_container"> 
+					<img id="steps_icon" src="resources/calendar.png"></i>
 				</div>
 				<h2 id="steps_title">Schedule</h2>
 				<p id="steps_text"> Start scheduling for your retreat through our easy to use scheduling system. </p>
 			</div>
 			<div id="steps">
-				<div id="steps_icon_container"> <img id="steps_icon" src="resources/travel.png"></i>
+				<p id="steps_number">2</p>
+				<div id="steps_icon_container"> 
+					<img id="steps_icon" src="resources/travel.png"></i>
 				</div>
 				<h2 id="steps_title">Travel</h2>
 				<p id="steps_text"> Travel to your selected Vacation home on your own time, with no cancellation fees. </p>
 			</div>
 			<div id="steps">
-				<div id="steps_icon_container"> <img id="steps_icon" src="resources/relax.png"></i>
+				<p id="steps_number">3</p>
+				<div id="steps_icon_container"> 
+					<img id="steps_icon" src="resources/relax.png"></i>
 				</div>
 				<h2 id="steps_title">Relax</h2>
 				<p id="steps_text"> Begin your day(s) of relaxation within our luxurious vacation home! </p>
 			</div>
 		</div>
 		<!--About Us Page Text 2-->
+		<h2 id="paragraph_header">Conclusion</h2>
 		<div id="paragraph_text_container">
-			<p id="paragraph_text"> Everything from the booking process, to the check-in day, to personalized tips from our experience over the past years, to the checkout date, our guests count on us to make their stay the most amazing and magical experience they have ever had! </p>
+			<p> Come experience the getaway of a lifetime along with your friends, family, or even have the whole house to yourself! Expereince your vacation the way YOU want to, along with all the <a href="home.php#getaway_package_title" >perks</a> of choosing us. Your paradise awaits! </p>
 		</div>
 	</div>
 	</div>

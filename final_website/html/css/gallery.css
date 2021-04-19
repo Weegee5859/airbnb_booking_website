@@ -24,6 +24,7 @@ h3 {
 	margin-left: auto;
 	margin-right: auto;
 	border: 2px solid #9bd8da;
+
 }
 
 .galleryTR {
@@ -32,10 +33,11 @@ h3 {
 
 .galleryTD {
 	border: 2px solid #9bd8da;
+	overflow: hidden;
 }
 
 .galleryPhoto {
-	width: 350px;
+	width: 25vw;
 	vertical-align: middle;
 	margin-right: auto;
 	margin-left: auto;

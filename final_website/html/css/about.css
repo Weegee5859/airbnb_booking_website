@@ -16,19 +16,25 @@
 	background-image: linear-gradient(#b5e2e340, #296d70B4), url("../resources/vac_house.jpg");
 }
 
-#paragraph_header {
+#paragraph_header, #paragraph_header_special {
 	color: white;
 	transform: skew(-25deg);
 	background: #9bd8da;
 	padding: 2px;
 	padding-left: 5vw;
 	margin: 20px 0 0 -20px;
+	width: 75vw;
+}
+
+#paragraph_header_special {
+	background: #ff6a30;
 }
 
 /* Paragraph container */
 #paragraph_text_container {
 	padding-left: 0vw;
 	padding-right: 5vw;
+	width: 70vw;
 }
 
 #paragraph_text_container p {
@@ -52,6 +58,15 @@
 	border-radius: 15px;
 }
 
+#steps_number {
+	color: white;
+	float: left;
+	font-size: 23px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+
 #steps_icon {
 	height: 84px;
 	top: 50%;
@@ -63,6 +78,12 @@
 	border-radius: 50%;
 	padding: 15px;
 	position: relative;
+}
+
+#steps_introduction {
+	color: #6c7275;
+	margin-bottom: 3px;
+	text-align: center;
 }
 
 #steps_text {

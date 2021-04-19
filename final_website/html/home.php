@@ -110,42 +110,50 @@ Filename:	home.html
 	</div>
 	<!--outside of starter screen (below the background img)-->
 	<h1 id="getaway_package_title">Check out what's included in our Getaway Package!</h1>
-	<div id="package_container">
+	<div id="packages">
 		<div id='package'>
-			<div id="package_img_container">
-				<div id="package_img_skewer">
-					<img id="package_img" src="resources/dog.jpg"></i>
+			<div id="package_container">
+				<div id="package_img_container">
+					<div id="package_img_skewer">
+						<img id="package_img" src="resources/dog.jpg"></i>
+					</div>
+					<p id="package_title">Pet's Allowed!</p>
 				</div>
-				<p id="package_title">Pet's Allowed!</p>
+				<p id="package_description">It wouldn't be a vacation without the whole family, including your loving pets! Bring along your favorite Canine, Feline, or other pet(s) to our vacation hotspot, with no additional charges!</p>
 			</div>
-			<p id="package_description">It wouldn't be a vacation without the whole family, including your loving pets! Bring along your favorite Canine, Feline, or other pet(s) to our vacation hotspot, with no additional charges!</p>
 		</div>
 		<div id='package'>
-			<div id="package_img_container">
-				<div id="package_img_skewer">
-					<img id="package_img" src="resources/dog.jpg"></i>
+			<div id="package_container">
+				<div id="package_img_container">
+					<div id="package_img_skewer">
+						<img id="package_img" src="resources/photo_6.jpg"></i>
+					</div>
+					<p id="package_title">Game On!</p>
 				</div>
-				<p id="package_title">Pet's Allowed!</p>
+				<p id="package_description">Want to compete in some <s>friendly</s> competition amongst your family and friends? Get your game on with our vacation homes dedicated game room!</p>
 			</div>
-			<p id="package_description">It wouldn't be a vacation without the whole family, including your loving pets! Bring along your favorite Canine, Feline, or other pet(s) to our vacation hotspot, with no additional charges!</p>
 		</div>
 		<div id='package'>
-			<div id="package_img_container">
-				<div id="package_img_skewer">
-					<img id="package_img" src="resources/dog.jpg"></i>
+			<div id="package_container">
+				<div id="package_img_container">
+					<div id="package_img_skewer">
+						<img id="package_img" src="resources/disney.jpg"></i>
+					</div>
+					<p id="package_title">Local Hotspots!</p>
 				</div>
-				<p id="package_title">Pet's Allowed!</p>
+				<p id="package_description">Our Vacation home is zoned for various hotspots from restaurants to theme parks, including the world renowed Disney World! To learn more information on these locations, visit our <a href="thingstodo.php">Things to Do</a> page.</p>
 			</div>
-			<p id="package_description">It wouldn't be a vacation without the whole family, including your loving pets! Bring along your favorite Canine, Feline, or other pet(s) to our vacation hotspot, with no additional charges!</p>
 		</div>
 		<div id='package'>
-			<div id="package_img_container">
-				<div id="package_img_skewer">
-					<img id="package_img" src="resources/dog.jpg"></i>
+			<div id="package_container">
+				<div id="package_img_container">
+					<div id="package_img_skewer">
+						<img id="package_img" src="resources/vac_house.jpg"></i>
+					</div>
+					<p id="package_title">Beautiful Beach!</p>
 				</div>
-				<p id="package_title">Pet's Allowed!</p>
+				<p id="package_description">Whether your taking in the beautiful island view or taking a dip in the fresh salt water, the [name_of_beach] beach will be a memorable experience for the whole family!</p>
 			</div>
-			<p id="package_description">It wouldn't be a vacation without the whole family, including your loving pets! Bring along your favorite Canine, Feline, or other pet(s) to our vacation hotspot, with no additional charges!</p>
 		</div>
 
 	</div>

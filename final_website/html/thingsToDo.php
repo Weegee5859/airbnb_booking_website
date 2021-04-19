@@ -22,7 +22,7 @@ Filename:	thingsToDo.html
 	<!--<h3 class="topMessage">These are our favorite things to do in the area around the house.</h3>-->
 	<!--Dropdown Menu-->
 	<select>
-		<option value="choose_category">Choose a category...</option>
+		<option value="choose_category">Choose a Category...</option>
 		<option value="restaurants">Restaurants</option>
 		<option value="theme_parks">Theme Parks</option>
 		<option value="entertainment">Entertainment </option>
