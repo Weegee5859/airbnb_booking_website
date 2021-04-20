@@ -148,11 +148,11 @@ Filename:	home.html
 			<div id="package_container">
 				<div id="package_img_container">
 					<div id="package_img_skewer">
-						<img id="package_img" src="resources/vac_house.jpg"></i>
+						<img id="package_img" src="resources/beach.jpg"></i>
 					</div>
 					<p id="package_title">Beautiful Beach!</p>
 				</div>
-				<p id="package_description">Whether your taking in the beautiful island view or taking a dip in the fresh salt water, the [name_of_beach] beach will be a memorable experience for the whole family!</p>
+				<p id="package_description">Whether your taking in the beautiful island view or taking a dip in the fresh salt water, visiting some of Florida's local beaches will be a memorable experience for all!</p>
 			</div>
 		</div>
 

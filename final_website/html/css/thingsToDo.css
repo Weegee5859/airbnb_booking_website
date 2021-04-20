@@ -34,6 +34,11 @@ option {
 	content: "Some of our favorite things to do when visiting our Vacation Home.";
 }
 
+#banner_image_container {
+	background-image: linear-gradient(#b5e2e340, #296d70B4), url("../resources/vacation_banner.jpg");
+	background-position:50% 75%;
+}
+
 /* Message at the top of 'things to do' */
 .topMessage {
 	text-align: center;

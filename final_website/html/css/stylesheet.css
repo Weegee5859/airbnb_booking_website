@@ -55,7 +55,7 @@ input:not(:placeholder-shown), input::before {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 20vh;
-	background-image: linear-gradient(#b5e2e340, #296d70B4), url("../resources/vac_house.jpg");
+	background-image: linear-gradient(#b5e2e340, #296d70B4), url("../resources/beach.jpg");
 	margin-bottom: 20px;
 }
 

@@ -13,7 +13,8 @@
 }
 
 #banner_image_container {
-	background-image: linear-gradient(#b5e2e340, #296d70B4), url("../resources/vac_house.jpg");
+	background-image: linear-gradient(#b5e2e340, #296d70B4), url("../resources/about_banner.jpg");
+	background-position:50% 40%;
 }
 
 #paragraph_header, #paragraph_header_special {

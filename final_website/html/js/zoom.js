@@ -12,7 +12,7 @@ var figFilename = "resources/photo_" + photoOrderArray[i] + ".jpg";
 
 /* Populate img element and create event listener. */
 function pageSetup() {
-	document.getElementsByTagName("img")[0].src = figFilename;
+	document.getElementsById("gallery_image")[0].src = figFilename;
 // Assign filename to img element.
 	createEventListener();
 }

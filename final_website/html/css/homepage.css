@@ -188,7 +188,14 @@ cursor: default;
 	float: right;
 }
 
-/* Getaway Packages */
+
+/* Contains all #package div's (2nd portion of the homepage)*/
+
+#getaway_package_title {
+	text-align: center;
+}
+
+/* Each card at the bottom of the home page */
 #package{
 	display: flex;
 	flex-wrap: nowrap;
@@ -196,12 +203,13 @@ cursor: default;
 
 }
 
-/* Contains all #package div's (2nd portion of the homepage)*/
+/* container for each card */
 #packages {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
+
 
 #package_container {
 	background-color: #1a4547;
@@ -246,16 +254,22 @@ cursor: default;
 	max-width: 500px;
 }
 
+#package_description::after {
+	display: block;
+	border-bottom: 2px solid #ffb62a;
+	content: " ";
+	width: 15%;
+	text-align: center;
+	margin: auto;
+	padding-top: 10px;
+}
+
 #package_title {
 	font-size: 23px;
 	font-weight: bold;
 }
 
 
-
-#getaway_package_title {
-	text-align: center;
-}
 
 #scroll_down {
 	position: absolute;

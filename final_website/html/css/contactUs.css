@@ -12,6 +12,10 @@
 	content: "Got Questions For Us? We Can Assist You!";
 }
 
+#banner_image_container {
+	background-image: linear-gradient(#b5e2e340, #296d70B4), url("../resources/contact_banner.jpg");
+	background-position: left;
+}
  label.formLabel {
 	font-weight: bold;
 	padding-left: 4px;
