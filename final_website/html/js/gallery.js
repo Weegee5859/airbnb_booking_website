@@ -1,7 +1,7 @@
 /* 
  * Author:		Evan Tatavitto, Jordan Bender, Joshua Marshall, Nathan Mousinho Elias
  * Date:		4/17/2021	
- *Filename:	gallery.html
+ * Filename:	gallery.js
  */
  "use strict"; // Interpret document contents in JavaScript strict mode.
 
@@ -67,26 +67,8 @@ function createEventListeners() {
 	} else if (rightarrow.attachEvent) {
 		rightarrow.attachEvent("onclick", rightArrow);
 	}
-	var mainFig = document.getElementsByTagName("img")[1];
-	if (mainFig.addEventListener) {
-		mainFig.addEventListener("click", zoomFig, false);
-	} else if (mainFig.attachEvent) {
-		mainFig.attachEvent ("onclick", zoomFig);
-	}
 }
 
-/* Open center figure in separate window. */
-function zoomFig() {
-	var propertyWidth = 1000;
-	var propertyHeight = 700;
-	var winLeft = ((screen.width - propertyWidth) / 2);
-	var winTop = ((screen.height - propertyHeight) / 2);
-	var winOptions = "width=960,height=700";
-	winOptions += ",left=" + winLeft;
-	winOptions += ",top=" + winTop;
-	var zoomWindow = window.open("zoom.html", "zoomwin", winOptions);
-	zoomWindow.focus();
-}
 
 /* Create event listeners and populate image elements. */
 function setUpPage() {
