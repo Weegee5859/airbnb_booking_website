@@ -39,6 +39,7 @@ h3 {
 	align-content: center;
 	align-items: center;
 	justify-content: center;
+	flex-direction: column;
 }
 
 .galleryTable {
@@ -80,6 +81,13 @@ p.gallery::after {
 	padding-top: 10px;
 }
 
+.gallery_title {
+	color: #6c7275;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
 #galleryDiv {
 	padding-bottom: 10px;
 	text-align: center;
@@ -96,7 +104,6 @@ p.gallery::after {
 
 article {
 	position: relative;
-	border: 2px solid red;
 	display: flex;
 	align-content: center;
 	align-items: center; /* Default */
@@ -105,14 +112,6 @@ article {
 	margin: 7px;
 }
 
-
-table {
-	position: relative;
-	width: 960px;
-	display: inline-block;
-	height: 450px;
-	border: 2px solid blue;
-}
 
 #leftarrow, #rightarrow {
 	background: white;

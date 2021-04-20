@@ -29,7 +29,7 @@ Filename:	about.html
 
 		<!--About Us Steps-->
 		<h2 id="paragraph_header_special">Our Process</h2>
-		<h2 id="steps_introduction">Start Your Vacation in 3 Easy Steps...</h2>
+		<p id="steps_introduction">Start Your Vacation in 3 Easy Steps...</p>
 		<div id="steps_container">
 			<div id="steps">
 				<p id="steps_number">1</p>
