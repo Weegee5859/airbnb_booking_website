@@ -4,6 +4,28 @@
  * Filename:	stylesheet.css
  */
 
+/* Scrollbar */
+::-webkit-scrollbar {
+	width: 9px;
+	height: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #6c7275;
+	border-radius: 10px;
+}
+
+/* Handle Hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #5e7682;
+}
+
 a:link {
 	color: #ffb62a;
 }
@@ -101,6 +123,16 @@ input:not(:placeholder-shown), input::before {
 	text-align: center;
 }
 
+/* Line that appears below a navigation bar item on hover */
+#line {
+	display: block;
+	margin: 0 auto;
+	width: 0%;
+	border-bottom: 2px solid #ffb62a;
+	bottom: 5px;
+	transition: width 0.5s ease;
+}
+
 /* navigation bar list */
 #nav_list {
 	background-color: rgba(0,0,0,0);
@@ -132,15 +164,7 @@ input:not(:placeholder-shown), input::before {
 	color: #ffb62a
 }
 
-/* Line that appears below a navigation bar item on hover */
-div#line {
-	display: block;
-	margin: 0 auto;
-	width: 0%;
-	border-bottom: 2px solid #ffb62a;
-	bottom: 5px;
-	transition: width 0.5s ease;
-}
+
 
 /* if hovering over a navigation bar item, a line appears*/
 #nav_item a:hover ~ div#line {

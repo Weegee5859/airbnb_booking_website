@@ -26,10 +26,10 @@ Filename:	contact.html
 				<input type="text" name="name" class="formInput" placeholder="Name" required>
 				<br> </label>
 			<label class="formLabel">
-				<input type="email" name="email" class="formInput" placeholder="Email">
+				<input type="email" name="email" class="formInput" placeholder="Email" required>
 				<br> </label>
 			<label class="formLabel">
-				<input type="tel" name="phone" class="formInput" placeholder="Phone Number">
+				<input type="tel" name="phone" class="formInput" placeholder="Phone Number" required>
 				<br> </label>
 			<label class="formLabel">
 				<input type="date" name="arrival" class="formInput" id="input_arrival" placeholder="f" required>
@@ -46,7 +46,7 @@ Filename:	contact.html
 			</label>
 		</form>
 		<div class="booking_list">
-			
+			<!-- Display booked appointments at bottom of page-->
 			<?php
 				print(displayAppointments());
 			?>

@@ -101,6 +101,7 @@ form {
 	padding: 0px;
 	padding-left: 8px;
 	padding-right: 8px;
+	overflow-x: scroll;
 }
 
 .booking {
@@ -113,11 +114,13 @@ form {
 	text-align: center;
 	margin: 0px;
 	padding: 0px;
-	width: 275px;	
+	width: 275px;
+	min-width: 275px;	
 }
 
 .booking * {
 	margin: 5px;
+
 }
 
 
