@@ -64,15 +64,50 @@ Filename:	contact.html
 					return null;
 				}
 
+				function checkAppointments($data) {
+					//check if arrival/depature dates are valid (depature date can't be before arrival date)
+					if ( $_POST['departure'] <= $_POST['arrival'] ) {
+						print("ERROR: Invalid dates. Departure date can't be before Arrival Date. :(");
+						return false;
+					}
+					foreach($data as $value) {
+						if ($_POST['arrival'] >= $value['arrival']) {
+							if ($_POST['departure'] <= $value['departure']) {
+								print("ERROR: Appointment already booked for that day. :(");
+								print_r("<br>");
+								print_r($_POST['arrival']);
+								print_r(" - ");
+								print_r($_POST['departure']);
+								print_r("<br>");
+								print_r($value['arrival']);
+								print_r(" - ");
+								print_r($value['departure']);
+								echo "<br>";
+								return false;
+							}
+						}
+					}
+					return true;
+				}
+
 				//try to load appointments json file and decode it
 				if ( $json = json_decode( loadAppointments(),true ) ) {
 
-					array_push($json, $_POST);//----//
-					saveAppointment($json);//----//
-				foreach($json as $value) {
-					print_r($value);
-					echo "<br>";
-				}
+					
+					print_r($_POST['arrival']);
+					// testing
+					if ( checkAppointments($json) ) {
+						array_push($json, $_POST);
+						saveAppointment($json);
+						print_r("success");
+					} else {
+						print_r("fail");
+					}
+
+					foreach($json as $value) {
+						print_r($value);
+						print_r("<br>");
+					}
 
 
 				//create a new json file for appointments
