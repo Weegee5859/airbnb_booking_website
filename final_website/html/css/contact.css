@@ -46,8 +46,7 @@ form {
 	margin: 8px;
 	margin-bottom: 25px;
 	padding: 20px;
-	
-	
+	max-width: 500px;
 }
 
 #input_arrival, #input_departure {
@@ -86,10 +85,41 @@ form {
 	background-color: #ffb62a;
 }
 
-div.contactUsForm {
+.contact_container {
+	display: flex;
 	margin: auto;
-	width: fit-content;
+	flex-direction: column;
+	align-items: center;
 }
+.booking_list {
+	display: flex;
+	align-self: stretch;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	height: 125px;
+	margin: 0px;
+	margin-bottom: 20px;
+	padding: 0px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.booking {
+	justify-content: center;
+	display: flex;
+	border-left: 2px solid rgba(0,0,0,0.4);
+	border-right: 2px solid rgba(0,0,0,0.4);
+	height: 100%;
+	flex-direction: column;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	width: 275px;	
+}
+
+.booking * {
+	margin: 5px;
+}
+
 
 h1, h3 {
 	text-align: center;
