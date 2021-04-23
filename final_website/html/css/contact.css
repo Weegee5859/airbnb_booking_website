@@ -4,19 +4,8 @@
  * Filename:	contactUs.css
  */
  
-#banner_title:after {
-	content: "Contact Us";
-}
 
-#banner_text:after {
-	content: "Got Questions For Us? We Can Assist You!";
-}
-
-#banner_image_container {
-	background-image: linear-gradient(#b5e2e340, #296d70B4), url("../resources/contact_banner.jpg");
-	background-position: left;
-}
- label.formLabel {
+label.formLabel {
 	font-weight: bold;
 	padding-left: 4px;
 }
@@ -30,6 +19,15 @@ textarea {
 	height: 100px;
 }
 
+form {
+	border-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 8px;
+	margin-bottom: 25px;
+	padding: 20px;
+	max-width: 500px;
+}
+
 form::before {
 	display: block;
 	color: #353839;
@@ -40,13 +38,89 @@ form::before {
 }
 
 
-form {
-	border-radius: 8px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	margin: 8px;
-	margin-bottom: 25px;
-	padding: 20px;
-	max-width: 500px;
+h1, h3 {
+	text-align: center;
+}
+
+#banner_title:after {
+	content: "Contact Us";
+}
+
+#banner_text:after {
+	content: "Got Questions For Us? We Can Assist You!";
+}
+
+#banner_image_container {
+	background-image: linear-gradient(#b5e2e340, #296d70B4), url("../resources/contact_banner.jpg");
+	background-position: left;
+}
+
+#booking {
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	border-left: 2px solid rgba(0,0,0,0.4);
+	border-right: 2px solid rgba(0,0,0,0.4);
+	height: 100%;
+	flex: 1 0 auto;
+	flex-direction: column;
+	text-align: center;
+	margin: 0px;
+	padding: 4px;
+	width: 275px;
+	min-width: 275px;
+}
+
+#booking_list {
+	display: flex;
+	align-self: stretch;
+	box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+	height: 125px;
+	margin: 0px;
+	margin-bottom: 20px;
+	padding: 0px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+#booking_title {
+	align-self: stretch;
+	background-color: #b5e2e3;
+	color: white;
+	display: flex;
+	font-size: 20px;
+	font-weight: bold;
+	justify-content: center;
+	box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+	margin: 0px;
+	padding: 4px;
+}
+
+#from_to_line {
+	height: 4px;
+	background: #ff6a00;
+	width: 70%;
+	margin-bottom: 30px;
+}
+
+#from_to_line::before, #from_to_line::after {
+	border-radius: 10px;
+	background-color: #ff6a00;
+	color: white;
+	content: 'A';
+	font-weight: bold;
+	float: left;
+	height: 21px;
+	margin-top: -10px;
+	width: 21px;
+}
+
+
+#from_to_line::after {
+	background-color:  #ff6a00;
+	content: 'D';
+	float: right;
 }
 
 #input_arrival, #input_departure {
@@ -56,15 +130,15 @@ form {
 #input_arrival::before, #input_departure::before {
 	font-weight: bold;
 	color: #6c7275;
-	padding-right: 5px;
+	padding-right: 2px;
 }
 
 #input_arrival::before {
-	content: "Arrival";
+	content: "Arrival*";
 }
 
 #input_departure::before {
-	content: "Departure"
+	content: "Departure*"
  }
 
 /* Submit button */
@@ -85,45 +159,10 @@ form {
 	background-color: #ffb62a;
 }
 
-.contact_container {
+#contact_container {
 	display: flex;
 	margin: auto;
 	flex-direction: column;
 	align-items: center;
 }
-.booking_list {
-	display: flex;
-	align-self: stretch;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	height: 125px;
-	margin: 0px;
-	margin-bottom: 20px;
-	padding: 0px;
-	padding-left: 8px;
-	padding-right: 8px;
-	overflow-x: scroll;
-}
 
-.booking {
-	justify-content: center;
-	display: flex;
-	border-left: 2px solid rgba(0,0,0,0.4);
-	border-right: 2px solid rgba(0,0,0,0.4);
-	height: 100%;
-	flex-direction: column;
-	text-align: center;
-	margin: 0px;
-	padding: 0px;
-	width: 275px;
-	min-width: 275px;	
-}
-
-.booking * {
-	margin: 5px;
-
-}
-
-
-h1, h3 {
-	text-align: center;
-}
