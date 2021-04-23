@@ -21,7 +21,7 @@ Filename:	thingsToDo.html
 	<!--<h1 class="topMessage">Things to do</h1>-->
 	<!--<h3 class="topMessage">These are our favorite things to do in the area around the house.</h3>-->
 	<!--Dropdown Menu-->
-	<select>
+	<select id="Type">
 		<option value="choose_category">Choose a Category...</option>
 		<option value="restaurants">Restaurants</option>
 		<option value="theme_parks">Theme Parks</option>
@@ -85,5 +85,6 @@ Filename:	thingsToDo.html
 		</table>
 	</div>
 	<?php include 'footer.html';?>
+	<script src="js/thingsToDo.js"></script>
 </body>
 </html>
