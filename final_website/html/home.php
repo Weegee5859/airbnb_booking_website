@@ -1,7 +1,7 @@
 
 <!--
 Author:		Evan Tatavitto, Jordan Bender, Joshua Marshall, Nathan Mousinho Elias
-Date:		3/19/2021	
+Date:		4/23/2021	
 Filename:	home.html
 -->
 <!DOCTYPE html>
@@ -31,8 +31,8 @@ Filename:	home.html
 				<table id="dateCal">
 					<caption>
 						<div id="caption_container">
-							<div id="caption_prev_button">&lt; </div>
-							<p id="caption_text">March 2021</p>
+							<div id="caption_prev_button"> &lt;</div>
+							<p id="caption_text"></p>
 							<div id="caption_next_button"> &gt;</div>
 						</div>
 					</caption>
@@ -47,64 +47,57 @@ Filename:	home.html
 					</tr>
 					<tr>
 						<td></td>
-						<td>1</td>
-						<td>2</td>
-						<td>3</td>
-						<td>4</td>
-						<td>5</td>
-						<td>6</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
 					</tr>
 					<tr>
-						<td>7</td>
-						<td>8</td>
-						<td>9</td>
-						<td>10</td>
-						<td>11</td>
-						<td>12</td>
-						<td>13</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
 					</tr>
 					<tr>
-						<td>14</td>
-						<td>15</td>
-						<td>16</td>
-						<td>17</td>
-						<td>18</td>
-						<td>19</td>
-						<td>20</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
 					</tr>
 					<tr>
-						<td>21</td>
-						<td>22</td>
-						<td>23</td>
-						<td>24</td>
-						<td>25</td>
-						<td>26</td>
-						<td>27</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
 					</tr>
 					<tr>
-						<td>28</td>
-						<td>29</td>
-						<td>30</td>
-						<td>31</td>
-						<td>1</td>
-						<td>2</td>
-						<td>3</td>
-					</tr>
-					<tr>
-						<td>4</td>
-						<td>5</td>
-						<td>6</td>
-						<td>7</td>
-						<td>8</td>
-						<td>9</td>
-						<td>10</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
 					</tr>
 				</table>
 			</div>
 		</div>
 
-		<input type="date" id="home_input_date">
-		<a id="contact_us_button" href="contact.php">Get Started!</a>
+		<form action="contact.php" method="post">
+			<input type="date" id="home_input_date">
+			<input type="submit" id="contact_us_button" value="Get Started!">
+		</form>
 
 		<h1 id="scroll_down">Scroll Down to Learn More! <img id="down_arrow" src="resources/down_arrow.png"></h1>
 	</div>
@@ -130,7 +123,7 @@ Filename:	home.html
 					</div>
 					<p id="package_title">Game On!</p>
 				</div>
-				<p id="package_description">Want to compete in some <s>friendly</s> competition amongst your family and friends? Get your game on with our vacation homes dedicated game room!</p>
+				<p id="package_description">Want to compete in some friendly competition amongst your family and friends? Get your game on with our vacation homes dedicated game room!</p>
 			</div>
 		</div>
 		<div id='package'>
@@ -159,5 +152,7 @@ Filename:	home.html
 	</div>
 	<!--Footer-->
 	<?php include 'footer.html';?>
+    <script src="js/home.js"></script>
 </body>
 </html>
+?>
