@@ -76,7 +76,7 @@ Filename:	thingsToDo.html
 				</td>
 			</tr>
 			<tr>
-				<td><img src="resources/historyMuseum.jpg" class="toDoImg"></td>
+				<td><img src="resources/historymuseum.jpg" class="toDoImg"></td>
 				<td class="toDoDsrptn">
 					<h3>Orange County Regional History Center</h3>
 					<p>This facinating history center is the place to go to learn about Central Florida's rich and diverse past.</p>
