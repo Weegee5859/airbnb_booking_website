@@ -134,7 +134,12 @@ cursor: default;
 	text-align: center;
 }
 
-#dateCal td:hover {
+#dateCal td.date {
+	opacity: 0.7;
+	text-decoration: line-through;
+}
+
+#dateCal td.futuredate:hover {
 	border: 2px solid #ffb62a;
 	color: #ffb62a;
 }
