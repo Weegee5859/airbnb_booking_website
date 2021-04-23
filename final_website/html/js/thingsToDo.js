@@ -5,10 +5,10 @@
 	Use with help from the textbook.
 */
 function WhatYouSee(){
-var Rest=getElementById(restTable);
-var Park=getElementById(parkTable);
-var Ent=getElementById(entTable);
-var Which=getElementById(Type).value;
+var Rest=getElementById("restTable");
+var Park=getElementById("parkTable");
+var Ent=getElementById("entTable");
+var Which=getElementById("Type").value;
 if (which === "choose_category"){
     Rest.style.display="block";
     Park.style.display="block";
@@ -30,6 +30,6 @@ if (which === "entertainment"){
     Ent.style.display="block";
 }
 }
-var DropDown=getElementById(Type);
+var DropDown=getElementById("Type");
 DropDown.addEventLisener("change",WhatYouSee,false);
 
