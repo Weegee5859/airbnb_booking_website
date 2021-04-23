@@ -7,8 +7,8 @@ Filename:	home.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!--Home page for "vacation home" website, in html will add JavaScript and PHP as need.-->
-	<title>Vacation Home</title> <!--Change to Name of Company.-->
+	<!--Home page for "Magic Home" website, in html will add JavaScript and PHP as need.-->
+	<title>Magic Home</title> <!--Change to Name of Company.-->
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css/stylesheet.css" />
 	<link rel="stylesheet" href="css/homepage.css" />
@@ -17,7 +17,7 @@ Filename:	home.html
 	<div id="start_screen_container">
 		<?php include 'header.html';?>
 
-		<h1 id="website_title">Name_Of_Website</h1>
+		<h1 id="website_title">Magic Home</h1>
 
 		<h2 x="0" y="15" id="website_motto">
 			Where Our <span id="website_motto_contrast">Home</span>, Is Your <span id="website_motto_contrast">Home</span>
