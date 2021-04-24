@@ -1,51 +1,26 @@
 <!--
 Author:		Evan Tatavitto, Jordan Bender, Joshua Marshall, Nathan Mousinho Elias
-Date:		3/19/2021	
-Filename:	thingsToDo.html
--->
-<!--
-
-	UNTIL WE ADD JAVASCRIPT, THIS PAGE WILL SIMPLY DISPLAY ALL CONTENTS.
-
+Date:		4/23/2021	
+Filename:	thingsToDo.php
 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<title>Things To Do</title>
-	<link rel="stylesheet" href="css/thingsToDo.css">
 	<link rel="stylesheet" href="css/stylesheet.css" />
+	<link rel="stylesheet" href="css/thingsToDo.css">
 </head>
-<!--include header.html-->
-<!--<?php include 'header.html';?>-->
+<!--include header_with_banner.html-->
+<?php include 'html/header_with_banner.html';?>
 <body>
-	<header>
-		<ul id="nav_list">
-			<li id="nav_item"><a href="home.html">Home</a>
-				<div id="line"></div>
-			</li>
-			<li id="nav_item"><a href="about.html">About Us</a>
-				<div id="line"></div>
-			</li>
-			<li id="nav_item"><a href="contact.html">Contact Us</a>
-				<div id="line"></div>
-			</li>
-			<li id="nav_item"><a href="gallery.html">Gallery</a>
-				<div id="line"></div>
-			</li>
-			<li id="nav_item"><a href="thingsToDo.html">Things To Do</a>
-				<div id="line"></div>
-			</li>
-		</ul>
-	</header>
-	<h1 class="topMessage">Things to do</h1>
-	<h3 class="topMessage">These are our favorite things to do in the area around the house.</h3>
 	<!--Dropdown Menu-->
 	<select>
-		<option value="choose_category">Choose a category...</option>
+		<option value="choose_category">Choose a Category...</option>
 		<option value="restaurants">Restaurants</option>
 		<option value="theme_parks">Theme Parks</option>
 		<option value="entertainment">Entertainment </option>
 	</select>
+
 	<!--Container for restaurant table.-->
 	<div id="restTable">
 		<table class="toDoTable">
@@ -63,10 +38,18 @@ Filename:	thingsToDo.html
 					<p>This is also a fancy restaurant with great food.</p>
 				</td>
 			</tr>
+			<tr>
+				<td><img src="resources/Fogo.jpg" class="toDoImg"></td>
+				<td class="toDoDsrptn">
+					<h3>Fogo de Chao Brazilian Steakhouse</h3>
+					<p>This upscale Brazilian chain is sure to leave even the hungriest guests satisfied.</p>
+				</td>
+			</tr>
 		</table>
 	</div>
+
 	<!--Container for theme park table.-->
-	<div id="parkTable">
+	<div id="parkTable" style="display:none;">
 		<table class="toDoTable">
 			<tr>
 				<td><img src="resources/disney.jpg" class="toDoImg"></td>
@@ -82,10 +65,18 @@ Filename:	thingsToDo.html
 					<p>This world class theme park is sure to be a blast for the whole family.</p>
 				</td>
 			</tr>
+			<tr>
+				<td><img src="resources/pirate.jpg" class="toDoImg"></td>
+				<td class="toDoDsrptn">
+					<h3>Pirate's Cove Adventure Golf</h3>
+					<p>This pirate-themed mini-golf course is one of our personal favorites.</p>
+				</td>
+			</tr>
 		</table>
 	</div>
+
 	<!--Container for entertainment table.-->
-	<div id="entTable">
+	<div id="entTable" style="display:none;">
 		<table class="toDoTable">
 			<tr>
 				<td><img src="resources/artMuseum.jpg" class="toDoImg"></td>
@@ -95,22 +86,22 @@ Filename:	thingsToDo.html
 				</td>
 			</tr>
 			<tr>
-				<td><img src="resources/historyMuseum.jpg" class="toDoImg"></td>
+				<td><img src="resources/historymuseum.jpg" class="toDoImg"></td>
 				<td class="toDoDsrptn">
 					<h3>Orange County Regional History Center</h3>
 					<p>This facinating history center is the place to go to learn about Central Florida's rich and diverse past.</p>
 				</td>
 			</tr>
+			<tr>
+				<td><img src="resources/zoo.jpg" class="toDoImg"></td>
+				<td class="toDoDsrptn">
+					<h3>Central Florida Zoo & Botanical Gardens</h3>
+					<p>Showcasing over 100 different species this 116-acre zoo and botanical garden offer some breathtaking sights.</p>
+				</td>
+			</tr>
 		</table>
 	</div>
-	<footer>
-		<!--Will replace with PHP-->
-		<div id="footer_container">
-			<p> 1234 South Street - Orlando, FL
-				<br> Phone: <a href="#">407-123-4567</a>
-				<br> E-mail: <a href="#">vacayhouse@gmail.com</a>
-				<br> <a href="#">Instagram</a> - <a href="#">Facebook</a> - <a href="#">Twitter</a> </p>
-		</div>
-	</footer>
+	<?php include 'html/footer.html';?>
 </body>
+<script src="js/thingsToDo.js"></script>
 </html>

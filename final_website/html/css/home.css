@@ -1,0 +1,300 @@
+/*
+ * Author:		Evan Tatavitto, Jordan Bender, Joshua Marshall, Nathan Mousinho Elias
+ * Date:		4/23/2021	
+ * Filename:	home.css
+ */
+
+@keyframes bounce {
+	0%, 100% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-10px);
+	}
+}
+
+body {
+	background-color: #1a4547;
+	color: white;
+}
+
+svg {
+	display: block;
+	margin: auto;
+}
+
+
+
+
+#calH {
+	color: #f8f8ff;
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: 80px;
+	margin-bottom: 10px;
+	position: relative;
+	text-align: center;
+}
+
+#contact_us_button {
+	background-color: #ff6a00;
+	border: 0px solid rgba(0,0,0,0);
+	border-radius: 8px;
+	color: #f8f8ff;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: .5px;
+	margin-left: 30px;
+	margin-top: 15px;
+	padding: 12px;
+	padding-left: 17px;
+	padding-right: 17px;
+	text-align: center;
+	text-decoration: none;
+	transition: background-color 0.7s ease;
+}
+
+#contact_us_button:hover {
+	background-color: #ffb62a;
+}
+
+#dates {
+	padding: 15px;
+}
+
+
+#home_input_date {
+	border-radius: 8px;
+	padding: 10px;
+	width: 175px;
+	border: 0px solid white;
+}
+
+#prev {
+	border-color: black;
+	border: 20px;
+	display: inline-block;
+	width: 90px;
+}
+
+#next {
+	display: inline-block;
+	width: 60px;
+}
+
+#caption_container {
+	width: 100%;
+}
+
+/* Prev and Next Buttons within caption container*/
+#caption_container div {
+	color: #353839;
+	cursor: default;
+	display: inline-block;
+	font-weight: bold;
+	padding: 5px;
+	transition: color 0.3s ease-out, border 0.3s ease-out;
+	width: 20px;
+}
+
+#caption_container div:hover {
+	color: red;
+}
+
+#caption_text {
+	display: inline-block;
+	margin: 0px;
+	padding: 5px;
+}
+
+#caption_prev_button {
+	float: left;
+}
+
+#caption_next_button {
+	float: right;
+}
+
+#dateCal {
+	text-align: center;
+	border-spacing: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-bottom: 2px;
+}
+
+#dateCal > * {
+cursor: default;
+}
+
+#dateCal th {
+	color: #6c7275;
+	cursor: default;
+	font-size: 17px;
+}
+
+#dateCal td {
+	padding: 6px;
+	border: 2px solid rgba(0,0,0,0);
+	color: #353839;
+	cursor: default;
+	font-size: 15px;
+	font-weight: bold;
+	transition: color 0.3s ease-out, border 0.3s ease-out;
+	text-align: center;
+}
+
+#dateCal td.date {
+	opacity: 0.7;
+	text-decoration: line-through;
+}
+
+#dateCal td.futuredate:hover {
+	border: 2px solid #ffb62a;
+	color: #ffb62a;
+}
+
+#dateCal caption {
+	color: #353839;
+	font-size: 18px;
+	padding: 5px;
+	background-color: #ff6a00;
+	border-top-left-radius: 15px;
+}
+
+#dateCal_container {
+	background-color: #f8f8ff;
+	display:inline-block;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 15px;
+	border-top-right-radius: 0px;
+}
+
+/* Animated down arrow */
+#down_arrow {
+	animation: bounce 2.5s infinite;
+}
+
+/* Contains all #package div's (2nd portion of the homepage)*/
+
+#getaway_package_title {
+	text-align: center;
+}
+
+/* overwirtting header css */
+#nav_list {
+	background-color: rgba(0,0,0,0);
+}
+
+/* Each card at the bottom of the home page */
+#package{
+	display: flex;
+	flex-wrap: nowrap;
+	text-align: center;
+
+}
+
+/* container for each card */
+#packages {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+#package_container {
+	background-color: #1a4547;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display: flex;
+	flex-wrap: nowrap;
+	margin: 15px;
+	padding: 7px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#package_img_container {
+	justify-content: center;
+	padding: 10px;
+	text-align: center;
+}
+
+#package_img_skewer{
+	border: 2px solid #9bd8da;
+	height: 100px;
+	margin: 45px;
+	overflow: hidden;
+	padding: 15px;
+	transform: rotate(50deg);
+	width: 100px;
+
+}
+
+#package_img{
+	height: 200%;
+	margin: -50% -50%;
+	object-fit:cover;
+	transform: rotate(-50deg);
+	width: 200%;
+}
+
+#package_description {
+	font-size: 18px;
+	margin: auto;
+	margin-left: 20px;
+	max-width: 500px;
+}
+
+#package_description::after {
+	display: block;
+	border-bottom: 2px solid #ffb62a;
+	content: " ";
+	width: 15%;
+	text-align: center;
+	margin: auto;
+	padding-top: 10px;
+}
+
+#package_title {
+	font-size: 23px;
+	font-weight: bold;
+}
+
+#scroll_down {
+	position: absolute;
+	text-align: center;
+	top: calc(100vh - 125px);
+	width: 100vw;
+	font-size: max(2vw, 30px);
+}
+
+#start_screen_container {
+	background-image: linear-gradient(#b5e2e340, #296d70B4), url("../resources/home_photo.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	image-rendering: -webkit-optimize-contrast;
+	height: 100vh;
+	text-align: center;
+}
+
+#website_title {
+	color: #f8f8ff;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#website_motto {
+	font-size: 24px;
+	font-weight: lighter;
+	color: #f8f8ff;
+	font-style: italic;
+}
+
+#website_motto_contrast {
+	color: #ff6a00;
+	font-style: italic;
+}

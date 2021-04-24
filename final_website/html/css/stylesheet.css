@@ -1,70 +1,29 @@
 /*
- * Author: 		Evan Tatavitto, Jordan Bender, Joshua Marshall, Nathan Mousinho Elias
- * Date:		3/19/2021	
+ * Author:		Evan Tatavitto, Jordan Bender, Joshua Marshall, Nathan Mousinho Elias
+ * Date:		4/23/2021	
  * Filename:	stylesheet.css
  */
- body {
-	padding: 0px;
-	margin: 0px;
-	font-family: 'Verdana', Fallback, sans-serif;
+
+/* Scrollbar */
+::-webkit-scrollbar {
+	width: 9px;
+	height: 9px;
 }
 
-div#footer_container {
-	background-color: #9cb7bb;
-	color: black;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	text-align: center;
+/* Track */
+::-webkit-scrollbar-track {
+	background: #e6e6e6;
 }
 
-ul#footer_item {
-	display: inline-block;
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #5e7682;
+	border-radius: 10px;
 }
 
-ul#footer_item a {
-	display: block;
-}
-
-ul#nav_list {
-	display: inline-block;
-	list-style-type: none;
-	margin: 0;
-	padding: 1vh;
-	padding-top: 0px;
-	width: 100%;
-	background-color: #9cb7bb;
-	border-bottom: 1px solid rgba(180,180,180,0.7);
-}
-
-li#nav_item {
-	display: inline-block;
-}
-
-li#nav_item a {
-	display: block;
-	color: #000;
-	padding: 8px 16px;
-	text-decoration: none;
-	padding-top: 20px;
-	transition: color 0.2s ease;
-	font-size: 17px;
-}
-
-li#nav_item a:hover {
-	color: red;
-}
-
-div#line {
-	display: block;
-	margin: 0 auto;
-	width: 0%;
-	border-bottom: 2px solid red;
-	bottom: 5px;
-	transition: width 0.5s ease;
-}
-
-li#nav_item a:hover ~ div#line {
-	width: 70%;
+/* Handle Hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #7a929f;
 }
 
 a:link {
@@ -73,4 +32,141 @@ a:link {
 
 a:visited {
 	color: #ff6a00;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Verdana', Fallback, sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+input, textarea {
+	border: 2px solid #f1f1f1;
+	border-bottom: 2px solid #b5e2e3;
+	background-color: white;
+	padding: 5px;
+	outline-style: none;
+	transition: 0.2s ease;
+	margin: 5px;
+}
+
+input:focus, textarea:focus {
+	border-bottom: 2px solid #389294;
+}
+
+/*
+input:not(:placeholder-shown):not(:focus):invalid {
+	border-bottom: 2px solid #ffb62a;
+}
+*/
+
+input:valid {
+	border-bottom: 2px solid lightgreen;	
+}
+
+p {
+	font-size: 16px;
+}
+
+/* Testing placeholder animation
+input:not(:placeholder-shown), input::before {
+	transition: 1s ease;
+	content: "NICE";
+	border: 2px solid lightgreen;
+	margin-bottom: 20px;
+}
+*/
+
+/* Banners elements are on top of each page with page title */
+#banner_image_container {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 20vh;
+	background-image: linear-gradient(#b5e2e340, #296d70B4), url("../resources/beach.jpg");
+	margin-bottom: 20px;
+}
+
+#banner_text_container {
+	padding: 8px;
+	position: relative;
+}
+
+
+#banner_text {
+	color: white;
+	font-size: 16px;
+	font-style: italic;
+	margin: 5px;
+	text-align: center;
+}
+
+
+#banner_title {
+	color: white;
+	font-size: 50px;
+	margin: 5px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+
+#footer_container {
+	background-color: #9bd8da;
+	color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+/* Line that appears below a navigation bar item on hover */
+#line {
+	display: block;
+	margin: 0 auto;
+	width: 0%;
+	border-bottom: 2px solid #ffb62a;
+	bottom: 5px;
+	transition: width 0.5s ease;
+}
+
+/* navigation bar list */
+#nav_list {
+	background-color: rgba(0,0,0,0);
+	display: inline-block;
+	list-style-type: none;
+	margin: 0;
+	padding-bottom: 10px;
+	text-align: center;
+	width: 100%;
+}
+
+/* navigation bar item */ 
+#nav_item {
+	display: inline-block;
+}
+
+#nav_item a {
+	display: block;
+	color: #f8f8ff;
+	padding: 8px 16px;
+	text-decoration: none;
+	padding-top: 20px;
+	transition: color 0.2s ease;
+	font-size: 19px;
+	font-weight: lighter;
+}
+
+#nav_item a:hover {
+	color: #ffb62a
+}
+
+
+
+/* if hovering over a navigation bar item, a line appears*/
+#nav_item a:hover ~ div#line {
+	width: 70%;
 }
