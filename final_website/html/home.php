@@ -1,8 +1,7 @@
-
 <!--
 Author:		Evan Tatavitto, Jordan Bender, Joshua Marshall, Nathan Mousinho Elias
-Date:		4/23/2021	
-Filename:	home.html
+Date:		4/23/2021
+Filename:	home.php
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -11,11 +10,11 @@ Filename:	home.html
 	<title>Magic Home</title> <!--Change to Name of Company.-->
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css/stylesheet.css" />
-	<link rel="stylesheet" href="css/homepage.css" />
+	<link rel="stylesheet" href="css/home.css" />
 </head>
 <body id="home" >
 	<div id="start_screen_container">
-		<?php include 'header.html';?>
+		<?php include 'html/header.html';?>
 
 		<h1 id="website_title">Magic Home</h1>
 
@@ -151,7 +150,7 @@ Filename:	home.html
 
 	</div>
 	<!--Footer-->
-	<?php include 'footer.html';?>
+	<?php include 'html/footer.html';?>
     <script src="js/home.js"></script>
 </body>
 </html>

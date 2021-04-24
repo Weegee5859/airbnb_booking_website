@@ -1,7 +1,7 @@
 <!--
 Author:		Evan Tatavitto, Jordan Bender, Joshua Marshall, Nathan Mousinho Elias
-Date:		3/19/2021	
-Filename:	gallery.html
+Date:		4/23/2021
+Filename:	gallery.php
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -14,7 +14,7 @@ Filename:	gallery.html
 
 <body>
 	<!--include header_with_banner.html-->
-	<?php include 'header_with_banner.html';?>
+	<?php include 'html/header_with_banner.html';?>
 	<!--Gallery Page-->
 	<div id="galleryDiv">
 		<!--<h1>Gallery</h1>-->
@@ -39,8 +39,7 @@ Filename:	gallery.html
 		</article>
 	</div>
 	<!--include footer.html-->
-	<?php include 'footer.html';?>
+	<?php include 'html/footer.html';?>
 </body>
 <script src="js/gallery.js"></script>
-<script src="js/scripts.js"></script>
 </html>

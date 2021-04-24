@@ -1,6 +1,6 @@
 /*
 	Author: Evan Tatavitto, Jordan Bender, Joshua Marshall, Nathan Mousinho Elias
-	Date: 4 / 23 / 2021
+	Date: 4/23/2021
 	Filename: home.js
 	Use with help from the textbook.
 */

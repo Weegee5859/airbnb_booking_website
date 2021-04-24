@@ -1,6 +1,6 @@
 /* 
  * Author:		Evan Tatavitto, Jordan Bender, Joshua Marshall, Nathan Mousinho Elias
- * Date:		4/17/2021	
+ * Date:		4/23/2021	
  * Filename:	gallery.js
  */
  "use strict"; // Interpret document contents in JavaScript strict mode.

@@ -1,12 +1,7 @@
 <!--
 Author:		Evan Tatavitto, Jordan Bender, Joshua Marshall, Nathan Mousinho Elias
-Date:		3/19/2021	
-Filename:	thingsToDo.html
--->
-<!--
-
-	UNTIL WE ADD JAVASCRIPT, THIS PAGE WILL SIMPLY DISPLAY ALL CONTENTS.
-
+Date:		4/23/2021	
+Filename:	thingsToDo.php
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -16,17 +11,16 @@ Filename:	thingsToDo.html
 	<link rel="stylesheet" href="css/thingsToDo.css">
 </head>
 <!--include header_with_banner.html-->
-<?php include 'header_with_banner.html';?>
+<?php include 'html/header_with_banner.html';?>
 <body>
-	<!--<h1 class="topMessage">Things to do</h1>-->
-	<!--<h3 class="topMessage">These are our favorite things to do in the area around the house.</h3>-->
 	<!--Dropdown Menu-->
-	<select id="Type">
+	<select>
 		<option value="choose_category">Choose a Category...</option>
 		<option value="restaurants">Restaurants</option>
 		<option value="theme_parks">Theme Parks</option>
 		<option value="entertainment">Entertainment </option>
 	</select>
+
 	<!--Container for restaurant table.-->
 	<div id="restTable">
 		<table class="toDoTable">
@@ -44,10 +38,18 @@ Filename:	thingsToDo.html
 					<p>This is also a fancy restaurant with great food.</p>
 				</td>
 			</tr>
+			<tr>
+				<td><img src="resources/Fogo.jpg" class="toDoImg"></td>
+				<td class="toDoDsrptn">
+					<h3>Fogo de Chao Brazilian Steakhouse</h3>
+					<p>This upscale Brazilian chain is sure to leave even the hungriest guests satisfied.</p>
+				</td>
+			</tr>
 		</table>
 	</div>
+
 	<!--Container for theme park table.-->
-	<div id="parkTable">
+	<div id="parkTable" style="display:none;">
 		<table class="toDoTable">
 			<tr>
 				<td><img src="resources/disney.jpg" class="toDoImg"></td>
@@ -63,10 +65,18 @@ Filename:	thingsToDo.html
 					<p>This world class theme park is sure to be a blast for the whole family.</p>
 				</td>
 			</tr>
+			<tr>
+				<td><img src="resources/pirate.jpg" class="toDoImg"></td>
+				<td class="toDoDsrptn">
+					<h3>Pirate's Cove Adventure Golf</h3>
+					<p>This pirate-themed mini-golf course is one of our personal favorites.</p>
+				</td>
+			</tr>
 		</table>
 	</div>
+
 	<!--Container for entertainment table.-->
-	<div id="entTable">
+	<div id="entTable" style="display:none;">
 		<table class="toDoTable">
 			<tr>
 				<td><img src="resources/artMuseum.jpg" class="toDoImg"></td>
@@ -82,9 +92,16 @@ Filename:	thingsToDo.html
 					<p>This facinating history center is the place to go to learn about Central Florida's rich and diverse past.</p>
 				</td>
 			</tr>
+			<tr>
+				<td><img src="resources/zoo.jpg" class="toDoImg"></td>
+				<td class="toDoDsrptn">
+					<h3>Central Florida Zoo & Botanical Gardens</h3>
+					<p>Showcasing over 100 different species this 116-acre zoo and botanical garden offer some breathtaking sights.</p>
+				</td>
+			</tr>
 		</table>
 	</div>
-	<?php include 'footer.html';?>
-	<script src="js/thingsToDo.js"></script>
+	<?php include 'html/footer.html';?>
 </body>
+<script src="js/thingsToDo.js"></script>
 </html>

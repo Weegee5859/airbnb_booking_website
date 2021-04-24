@@ -1,6 +1,6 @@
 <!--
 Author:		Evan Tatavitto, Jordan Bender, Joshua Marshall, Nathan Mousinho Elias
-Date:		3/19/2021	
+Date:		4/23/2021
 Filename:	contact.html
 -->
 <!DOCTYPE html>
@@ -14,7 +14,7 @@ Filename:	contact.html
 	<?php include 'appointments.php';?>
 </head>
 	<!--include header_with_banner.html-->
-	<?php include 'header_with_banner.html';?>
+	<?php include 'html/header_with_banner.html';?>
 <body>
 	<!--<h1>Contact Us</h1>-->
 	<!--<h3>Got Questions For Us? We Can Assist You!</h3>-->
@@ -58,7 +58,7 @@ Filename:	contact.html
 				print_r(bookAppointment($_POST));
 			}
 		?>
-	<?php include 'footer.html';?>
+	<?php include 'html/footer.html';?>
 </body>
 <script src="js/contact.js"></script>
 </html>

@@ -1,3 +1,8 @@
+<!--
+Author:		Evan Tatavitto, Jordan Bender, Joshua Marshall, Nathan Mousinho Elias
+Date:		4/23/2021
+Filename:	appointments.php
+-->
 <?php
 	function getFileDir() {
 		return 'appointments/myFile.json';

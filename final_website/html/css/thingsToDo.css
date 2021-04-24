@@ -1,6 +1,6 @@
 /*
  * Author:		Evan Tatavitto, Jordan Bender, Joshua Marshall, Nathan Mousinho Elias
- * Date:		3/19/2021	
+ * Date:		4/23/2021	
  * Filename:	thingsToDo.css
  */
 /* Dropdown menu for 'things to do' */
@@ -27,11 +27,11 @@ option {
 }
 
 #banner_title:after {
-	content: "Things to do";
+	content: "Things To Do";
 }
 
 #banner_text:after {
-	content: "Some of our favorite things to do when visiting our Vacation Home.";
+	content: "Some exciting things to do when visiting our Home!";
 }
 
 #banner_image_container {

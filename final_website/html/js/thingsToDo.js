@@ -1,35 +1,25 @@
-/*
-	Author: Evan Tatavitto, Jordan Bender, Joshua Marshall, Nathan Mousinho Elias
-	Date: 4 / 23 / 2021
-	Filename: home.js
-	Use with help from the textbook.
-*/
-function WhatYouSee(){
-var Rest=getElementById("restTable");
-var Park=getElementById("parkTable");
-var Ent=getElementById("entTable");
-var Which=getElementById("Type").value;
-if (which === "choose_category"){
-    Rest.style.display="block";
-    Park.style.display="block";
-    Ent.style.display="block";
-}
-if (which === "restaurants"){
-    Rest.style.display="block";
-    Park.style.display="none";
-    Ent.style.display="none";
-}
-if (which === "theme_parks"){
-    Rest.style.display="none";
-    Park.style.display="block";
-    Ent.style.display="none";
-}
-if (which === "entertainment"){
-    Rest.style.display="none";
-    Park.style.display="none";
-    Ent.style.display="block";
-}
-}
-var DropDown=getElementById("Type");
-DropDown.addEventLisener("change",WhatYouSee,false);
+/* 
+ * Author:		Evan Tatavitto, Jordan Bender, Joshua Marshall, Nathan Mousinho Elias
+ * Date:		4/23/2021	
+ * Filename:	thingsToDo.js
+ */
 
+// Event listener for the dropdown menu.
+// Sets the display for it's respective div to 'block' and 'none' for the others.
+document.addEventListener('input', function (event) {
+	if (event.target.value === 'restaurants') {
+		document.getElementById("restTable").style.display = "block";
+		document.getElementById("parkTable").style.display = "none";
+		document.getElementById("entTable").style.display = "none";
+	}
+	if (event.target.value === 'theme_parks') {
+		document.getElementById("parkTable").style.display = "block";
+		document.getElementById("restTable").style.display = "none";
+		document.getElementById("entTable").style.display = "none";
+	}
+	if (event.target.value === 'entertainment') {
+		document.getElementById("entTable").style.display = "block";
+		document.getElementById("parkTable").style.display = "none";
+		document.getElementById("restTable").style.display = "none";
+	}
+}, false);

@@ -1,6 +1,6 @@
 <!--
 Author:		Evan Tatavitto, Jordan Bender, Joshua Marshall, Nathan Mousinho Elias
-Date:		3/19/2021	
+Date:		4/23/2021	
 Filename:	about.html
 -->
 <!DOCTYPE html>
@@ -15,7 +15,7 @@ Filename:	about.html
 
 <body>
 	<!--include header_with_banner.html-->
-	<?php include 'header_with_banner.html';?>
+	<?php include 'html/header_with_banner.html';?>
 	<!--About Us Page Text-->
 	<div id="main_container">
 		<h2 id="paragraph_header">Who We Are</h2>
@@ -64,7 +64,7 @@ Filename:	about.html
 	</div>
 	</div>
 	<!--include footer.html-->
-	<?php include 'footer.html';?>
+	<?php include 'html/footer.html';?>
 </body>
 
 <script src="js/scripts.js"></script>

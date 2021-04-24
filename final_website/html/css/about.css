@@ -1,6 +1,6 @@
 /*
  * Author:		Evan Tatavitto, Jordan Bender, Joshua Marshall, Nathan Mousinho Elias
- * Date:		3/19/2021	
+ * Date:		4/23/2021
  * Filename:	about.css
  */
 
@@ -9,7 +9,7 @@
 }
 
 #banner_text:after {
-	content: "Indulge yourself in an unforgettable vacation experience with the comforts of home!";
+	content: "An unforgettable vacation experience with the comforts of home!";
 }
 
 #banner_image_container {

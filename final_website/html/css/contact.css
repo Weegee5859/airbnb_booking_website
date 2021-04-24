@@ -1,23 +1,8 @@
 /*
  * Author:		Evan Tatavitto, Jordan Bender, Joshua Marshall, Nathan Mousinho Elias
- * Date:		3/19/2021	
- * Filename:	contactUs.css
+ * Date:		4/23/2021
+ * Filename:	contact.css
  */
- 
-
-label.formLabel {
-	font-weight: bold;
-	padding-left: 4px;
-}
-
-input {
-	width: 200px;
-	height: 20px;
-}
-
-textarea {
-	height: 100px;
-}
 
 form {
 	border-radius: 8px;
@@ -37,9 +22,22 @@ form::before {
 	margin-bottom: 25px;
 }
 
-
 h1, h3 {
 	text-align: center;
+}
+
+input {
+	width: 200px;
+	height: 20px;
+}
+
+label.formLabel {
+	font-weight: bold;
+	padding-left: 4px;
+}
+
+textarea {
+	height: 100px;
 }
 
 #banner_title:after {
@@ -96,6 +94,14 @@ h1, h3 {
 	margin: 0px;
 	padding: 4px;
 }
+
+#contact_container {
+	display: flex;
+	margin: auto;
+	flex-direction: column;
+	align-items: center;
+}
+
 
 #from_to_line {
 	height: 4px;
@@ -158,11 +164,3 @@ h1, h3 {
 #submit:hover {
 	background-color: #ffb62a;
 }
-
-#contact_container {
-	display: flex;
-	margin: auto;
-	flex-direction: column;
-	align-items: center;
-}
-
