@@ -7,6 +7,11 @@
 // Event listener for the dropdown menu.
 // Sets the display for it's respective div to 'block' and 'none' for the others.
 document.addEventListener('input', function (event) {
+	if (event.target.value === 'choose_category') {
+		document.getElementById("restTable").style.display = "block";
+		document.getElementById("parkTable").style.display = "block";
+		document.getElementById("entTable").style.display = "block";
+	}
 	if (event.target.value === 'restaurants') {
 		document.getElementById("restTable").style.display = "block";
 		document.getElementById("parkTable").style.display = "none";
