@@ -49,7 +49,7 @@ Filename:	thingsToDo.php
 	</div>
 
 	<!--Container for theme park table.-->
-	<div id="parkTable" style="display:none;">
+	<div id="parkTable" >
 		<table class="toDoTable">
 			<tr>
 				<td><img src="resources/disney.jpg" class="toDoImg"></td>
@@ -76,7 +76,7 @@ Filename:	thingsToDo.php
 	</div>
 
 	<!--Container for entertainment table.-->
-	<div id="entTable" style="display:none;">
+	<div id="entTable" >
 		<table class="toDoTable">
 			<tr>
 				<td><img src="resources/artMuseum.jpg" class="toDoImg"></td>
