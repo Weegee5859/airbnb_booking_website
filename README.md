@@ -1,4 +1,4 @@
-# js_project
+# Vacation Booking Website
 College project where we were tasked to create a Vacation booking website using PHP with a functioning booking system.
 
 # Download
